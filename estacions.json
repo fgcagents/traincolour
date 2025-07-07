@@ -1,175 +1,1602 @@
 [
   {
-    "ID": "ESCAT0800000008591B",
-    "Nom": "Aiguafreda Aj."
+    "id": "ESCAT0800000008591B",
+    "nom": "Aiguafreda Aj."
   },
   {
-    "ID": "ESCAT0800000008328F",
-    "Nom": "Alella-Mirador"
+    "id": "ESCAT0800000008328F",
+    "nom": "Alella-Mirador"
   },
   {
-    "ID": "ESCAT0800000008350A",
-    "Nom": "Arenys de Mar"
+    "id": "ESCAT0800000008350A",
+    "nom": "Arenys de Mar"
   },
   {
-    "ID": "ESCAT0800000008358A",
-    "Nom": "Arenys de Munt"
+    "id": "ESCAT0800000008358A",
+    "nom": "Arenys de Munt"
   },
   {
-    "ID": "ESCAT0800000008310B",
-    "Nom": "Argentona"
+    "id": "ESCAT0800000008310B",
+    "nom": "Argentona"
   },
   {
-    "ID": "ESCAT0800000008610B",
-    "Nom": "Avià"
+    "id": "ESCAT0800000008610B",
+    "nom": "Avià"
   },
   {
-    "ID": "ESCAT0800000008610A",
-    "Nom": "Avià - Sud"
+    "id": "ESCAT0800000008610A",
+    "nom": "Avià - Sud"
   },
   {
-    "ID": "ESCAT0800000008915C",
-    "Nom": "Badalona - BCIN"
+    "id": "ESCAT0800000008915C",
+    "nom": "Badalona - BCIN"
   },
   {
-    "ID": "ESCAT0800000008915A",
-    "Nom": "Badalona - Bufalà"
+    "id": "ESCAT0800000008915A",
+    "nom": "Badalona - Bufalà"
   },
   {
-    "ID": "ESCAT0800000008912A",
-    "Nom": "Badalona - Centre"
+    "id": "ESCAT0800000008912A",
+    "nom": "Badalona - Centre"
   },
   {
-    "ID": "ESCAT0800000008911C",
-    "Nom": "Badalona - Dalt la Vila"
+    "id": "ESCAT0800000008911C",
+    "nom": "Badalona - Dalt la Vila"
   },
   {
-    "ID": "ESCAT0800000008080A",
-    "Nom": "Badalona - Llefià"
+    "id": "ESCAT0800000008080A",
+    "nom": "Badalona - Llefià"
   },
   {
-    "ID": "ESCAT0800000008912B",
-    "Nom": "Badalona - Progres"
+    "id": "ESCAT0800000008912B",
+    "nom": "Badalona - Progres"
   },
   {
-    "ID": "ESCAT0800000008913B",
-    "Nom": "Badalona-St.Antoni Llefià"
+    "id": "ESCAT0800000008913B",
+    "nom": "Badalona-St.Antoni Llefià"
   },
   {
-    "ID": "ESCAT0800000008695C",
-    "Nom": "Bagà"
+    "id": "ESCAT0800000008695C",
+    "nom": "Bagà"
   },
   {
-    "ID": "ESCAT0800000008695A",
-    "Nom": "Bagà"
+    "id": "ESCAT0800000008695A",
+    "nom": "Bagà"
   },
   {
-    "ID": "ESCAT0800000008695H",
-    "Nom": "Bagà"
+    "id": "ESCAT0800000008695H",
+    "nom": "Bagà"
   },
   {
-    "ID": "ESCAT0800000008695D",
-    "Nom": "Bagà"
+    "id": "ESCAT0800000008695D",
+    "nom": "Bagà"
   },
   {
-    "ID": "ESCAT0800000008002A",
-    "Nom": "Barcelona - Barri Gòtic"
+    "id": "ESCAT0800000008002A",
+    "nom": "Barcelona - Barri Gòtic"
   },
   {
-    "ID": "ESCAT0800000008018D",
-    "Nom": "Barcelona - betevé"
+    "id": "ESCAT0800000008018D",
+    "nom": "Barcelona - betevé"
   },
   {
-    "ID": "ESCAT0800000008030C",
-    "Nom": "Barcelona - Bon Pastor"
+    "id": "ESCAT0800000008030C",
+    "nom": "Barcelona - Bon Pastor"
   },
   {
-    "ID": "ESCAT0800000008014C",
-    "Nom": "Barcelona - Can Bruixa"
+    "id": "ESCAT0800000008014C",
+    "nom": "Barcelona - Can Bruixa"
   },
   {
-    "ID": "ESCAT0800000008030E",
-    "Nom": "Barcelona - Casa  l'Aigua"
+    "id": "ESCAT0800000008030E",
+    "nom": "Barcelona - Casa  l'Aigua"
   },
   {
-    "ID": "ESCAT0800000008018A",
-    "Nom": "Barcelona - El Clot"
+    "id": "ESCAT0800000008018A",
+    "nom": "Barcelona - El Clot"
   },
   {
-    "ID": "ESCAT0800000008023D",
-    "Nom": "Barcelona - El Coll-Vallcarca"
+    "id": "ESCAT0800000008023D",
+    "nom": "Barcelona - El Coll-Vallcarca"
   },
   {
-    "ID": "ESCAT0800000008024A",
-    "Nom": "Barcelona - Gràcia"
+    "id": "ESCAT0800000008024A",
+    "nom": "Barcelona - Gràcia"
   },
   {
-    "ID": "ESCAT0800000008032A",
-    "Nom": "Barcelona - Horta"
+    "id": "ESCAT0800000008032A",
+    "nom": "Barcelona - Horta"
   },
   {
-    "ID": "ESCAT0800000008028D",
-    "Nom": "Barcelona - Hosp. Dexeus"
+    "id": "ESCAT0800000008028D",
+    "nom": "Barcelona - Hosp. Dexeus"
   },
   {
-    "ID": "ESCAT0800000008014G",
-    "Nom": "Barcelona - Hostafrancs"
+    "id": "ESCAT0800000008014G",
+    "nom": "Barcelona - Hostafrancs"
   },
   {
-    "ID": "ESCAT0800000008008A",
-    "Nom": "Barcelona - La Pedrera"
+    "id": "ESCAT0800000008008A",
+    "nom": "Barcelona - La Pedrera"
   },
   {
-    "ID": "ESCAT0800000008020A",
-    "Nom": "Barcelona - La Verneda"
+    "id": "ESCAT0800000008020A",
+    "nom": "Barcelona - La Verneda"
   },
   {
-    "ID": "ESCAT0800000008031A",
-    "Nom": "Barcelona - Nou Barris"
+    "id": "ESCAT0800000008031A",
+    "nom": "Barcelona - Nou Barris"
   },
   {
-    "ID": "ESCAT0800000008014F",
-    "Nom": "Barcelona - Plaça Sants"
+    "id": "ESCAT0800000008014F",
+    "nom": "Barcelona - Plaça Sants"
   },
   {
-    "ID": "ESCAT0800000008005A",
-    "Nom": "Barcelona - Poblenou"
+    "id": "ESCAT0800000008005A",
+    "nom": "Barcelona - Poblenou"
   },
   {
-    "ID": "ESCAT0800000008009B",
-    "Nom": "Barcelona - Ps. Sant Joan"
+    "id": "ESCAT0800000008009B",
+    "nom": "Barcelona - Ps. Sant Joan"
   },
   {
-    "ID": "ESCAT0800000008017D",
-    "Nom": "Barcelona - Rectoret"
+    "id": "ESCAT0800000008017D",
+    "nom": "Barcelona - Rectoret"
   },
   {
-    "ID": "ESCAT0800000008023I",
-    "Nom": "Barcelona - Sant Gervasi"
+    "id": "ESCAT0800000008023I",
+    "nom": "Barcelona - Sant Gervasi"
   },
   {
-    "ID": "ESCAT0800000008018E",
-    "Nom": "Barcelona - Sant Martí"
+    "id": "ESCAT0800000008018E",
+    "nom": "Barcelona - Sant Martí"
   },
   {
-    "ID": "ESCAT0800000008017B",
-    "Nom": "Barcelona - Sarrià"
+    "id": "ESCAT0800000008017B",
+    "nom": "Barcelona - Sarrià"
   },
   {
-    "ID": "ESCAT0800000008034A",
-    "Nom": "Barcelona - Sarrià"
+    "id": "ESCAT0800000008034A",
+    "nom": "Barcelona - Sarrià"
   },
   {
-    "ID": "ESCAT0800000008023C",
-    "Nom": "Barcelona - Tibidabo"
+    "id": "ESCAT0800000008023C",
+    "nom": "Barcelona - Tibidabo"
   },
   {
-    "ID": "ESCAT0800000008014B",
-    "Nom": "Barcelona Sants-Montjuïc"
+    "id": "ESCAT0800000008014B",
+    "nom": "Barcelona Sants-Montjuïc"
   },
   {
-    "ID": "ESCAT0800000008027C",
-    "Nom": "Barcelona-TorGuineu Navas"
+    "id": "ESCAT0800000008027C",
+    "nom": "Barcelona-TorGuineu Navas"
+  },
+  {
+    "id": "ESCAT0800000008572B",
+    "nom": "Bellmunt"
+  },
+  {
+    "id": "ESCAT0800000008572A",
+    "nom": "Bellmunt - Santuari"
+  },
+  {
+    "id": "ESCAT0800000008600A",
+    "nom": "Berga"
+  },
+  {
+    "id": "ESCAT0800000008619A",
+    "nom": "Borredà"
+  },
+  {
+    "id": "ESCAT0800000008349A",
+    "nom": "Cabrera de Mar"
+  },
+  {
+    "id": "ESCAT0800000008349B",
+    "nom": "Cabrera de Mar-SJoan Munt"
+  },
+  {
+    "id": "ESCAT0800000008695G",
+    "nom": "Cadí Est- PN Cadí-Moixeró"
+  },
+  {
+    "id": "ESCAT0800000008393B",
+    "nom": "Caldes d'Estrac"
+  },
+  {
+    "id": "ESCAT0800000008370A",
+    "nom": "Calella"
+  },
+  {
+    "id": "ESCAT0800000008506A",
+    "nom": "Calldetenes"
+  },
+  {
+    "id": "ESCAT0800000008506B",
+    "nom": "Calldetenes"
+  },
+  {
+    "id": "ESCAT0800000008360D",
+    "nom": "Canet de Mar"
+  },
+  {
+    "id": "ESCAT0800000008360C",
+    "nom": "Canet de Mar - Centre"
+  },
+  {
+    "id": "ESCAT0800000008360B",
+    "nom": "Canet de Mar - Mise"
+  },
+  {
+    "id": "ESCAT0800000008360H",
+    "nom": "Canet de Mar - Rial Oms"
+  },
+  {
+    "id": "ESCAT0800000008445A",
+    "nom": "Cànoves i Samalús"
+  },
+  {
+    "id": "ESCAT0800000008739A",
+    "nom": "Cantallops"
+  },
+  {
+    "id": "ESCAT0800000008440A",
+    "nom": "Cardedeu - Centre"
+  },
+  {
+    "id": "ESCAT0800000008440C",
+    "nom": "Cardedeu - Poble Sec"
+  },
+  {
+    "id": "ESCAT0800000008261D",
+    "nom": "Cardona_RavalSantJoan_DV"
+  },
+  {
+    "id": "ESCAT0800000008261E",
+    "nom": "Cardona_Salinera"
+  },
+  {
+    "id": "ESCAT0800000008693A",
+    "nom": "Casserres"
+  },
+  {
+    "id": "ESCAT0800000008211B",
+    "nom": "Castellar del Vallès"
+  },
+  {
+    "id": "ESCAT0800000008296B",
+    "nom": "Castellbell"
+  },
+  {
+    "id": "ESCAT0800000008296A",
+    "nom": "Castellbell"
+  },
+  {
+    "id": "ESCAT0800000008183C",
+    "nom": "Castellcir"
+  },
+  {
+    "id": "ESCAT0800000008860B",
+    "nom": "Castelldefels - Platja"
+  },
+  {
+    "id": "ESCAT0800000008283A",
+    "nom": "Castellfollit deRiubregos"
+  },
+  {
+    "id": "ESCAT0800000008540C",
+    "nom": "Centelles - Oest"
+  },
+  {
+    "id": "ESCAT0800000008698A",
+    "nom": "Cercs"
+  },
+  {
+    "id": "ESCAT0800000008290B",
+    "nom": "Cerdanyola - Centre"
+  },
+  {
+    "id": "ESCAT0800000008290D",
+    "nom": "Cerdanyola - Montflorit"
+  },
+  {
+    "id": "ESCAT0800000008758A",
+    "nom": "Cervelló - Penya Roja"
+  },
+  {
+    "id": "ESCAT0800000008940C",
+    "nom": "Cornella de Llobregat"
+  },
+  {
+    "id": "ESCAT0800000008588A",
+    "nom": "Cussons - Sora"
+  },
+  {
+    "id": "ESCAT0800000008319B",
+    "nom": "Dosrius"
+  },
+  {
+    "id": "ESCAT0800000008319C",
+    "nom": "Dosrius Can Miloca"
+  },
+  {
+    "id": "ESCAT0800000008320C",
+    "nom": "El Masnou - Can Humet"
+  },
+  {
+    "id": "ESCAT0800000008320F",
+    "nom": "El Masnou - Nordeste"
+  },
+  {
+    "id": "ESCAT0800000008320D",
+    "nom": "El Masnou - Ocata"
+  },
+  {
+    "id": "ESCAT0800000008320G",
+    "nom": "El Masnou - Ocata 2"
+  },
+  {
+    "id": "ESCAT0800000008754C",
+    "nom": "El Papiol"
+  },
+  {
+    "id": "ESCAT0800000008820D",
+    "nom": "El Prat-Zonilla"
+  },
+  {
+    "id": "ESCAT0800000008259A",
+    "nom": "Fals"
+  },
+  {
+    "id": "ESCAT0800000008519D",
+    "nom": "Folgueroles"
+  },
+  {
+    "id": "ESCAT0800000008736A",
+    "nom": "Font-Rubí"
+  },
+  {
+    "id": "ESCAT0800000008850A",
+    "nom": "Gavà"
+  },
+  {
+    "id": "ESCAT0800000008850B",
+    "nom": "Gavà - Colomeres"
+  },
+  {
+    "id": "ESCAT0800000008850C",
+    "nom": "Gavà - Gavà Nova"
+  },
+  {
+    "id": "ESCAT0800000008790B",
+    "nom": "Gelida - Institut"
+  },
+  {
+    "id": "ESCAT0800000008474B",
+    "nom": "Gualba"
+  },
+  {
+    "id": "ESCAT0800000008503A",
+    "nom": "Gurb"
+  },
+  {
+    "id": "ESCAT0800000008480A",
+    "nom": "L'Ametlla del Vallès"
+  },
+  {
+    "id": "ESCAT0800000008614A",
+    "nom": "L'Espunyola"
+  },
+  {
+    "id": "ESCAT0800000008901D",
+    "nom": "L'Hospitalet de Llobregat"
+  },
+  {
+    "id": "ESCAT0800000008476A",
+    "nom": "La Batllòria - Vallès Ori"
+  },
+  {
+    "id": "ESCAT0800000008782A",
+    "nom": "La Beguda Alta"
+  },
+  {
+    "id": "ESCAT0800000008773A",
+    "nom": "La Font del Bosc Mediona"
+  },
+  {
+    "id": "ESCAT0800000008530D",
+    "nom": "La Garriga"
+  },
+  {
+    "id": "ESCAT0800000008792A",
+    "nom": "La Granada"
+  },
+  {
+    "id": "ESCAT0800000008698B",
+    "nom": "La Nou de Berguedà El Pou"
+  },
+  {
+    "id": "ESCAT0800000008696A",
+    "nom": "La Pobla de Lillet"
+  },
+  {
+    "id": "ESCAT0800000008380A",
+    "nom": "Malgrat de mar"
+  },
+  {
+    "id": "ESCAT0800000008560A",
+    "nom": "Manlleu"
+  },
+  {
+    "id": "ESCAT0800000008243A",
+    "nom": "Manresa"
+  },
+  {
+    "id": "ESCAT0800000008243B",
+    "nom": "Manresa - Est"
+  },
+  {
+    "id": "ESCAT0800000008242B",
+    "nom": "Manresa - Oest"
+  },
+  {
+    "id": "ESCAT0800000008298A",
+    "nom": "Marganell"
+  },
+  {
+    "id": "ESCAT0800000008230B",
+    "nom": "Matadepera - Centre"
+  },
+  {
+    "id": "ESCAT0800000008230C",
+    "nom": "Matadepera-La Muntanyeta"
+  },
+  {
+    "id": "ESCAT0800000008304B",
+    "nom": "Mataró - Can Quirze"
+  },
+  {
+    "id": "ESCAT0800000008304A",
+    "nom": "Mataró - Vista Alegre"
+  },
+  {
+    "id": "ESCAT0800000008304C",
+    "nom": "Mataró -Nord"
+  },
+  {
+    "id": "ESCAT0800000008304D",
+    "nom": "Mataró-Can Canyellas"
+  },
+  {
+    "id": "ESCAT0800000008304E",
+    "nom": "Mataró-Parc de Créteil"
+  },
+  {
+    "id": "ESCAT0800000008180A",
+    "nom": "Moià"
+  },
+  {
+    "id": "ESCAT0800000008180E",
+    "nom": "Moià - Oest"
+  },
+  {
+    "id": "ESCAT0800000008180B",
+    "nom": "Moià Alt"
+  },
+  {
+    "id": "ESCAT0800000008750B",
+    "nom": "Molins de Rei - Bonavista"
+  },
+  {
+    "id": "ESCAT0800000008750E",
+    "nom": "Molins de Rei-de les eres"
+  },
+  {
+    "id": "ESCAT0800000008100C",
+    "nom": "Mollet  -  Estació França"
+  },
+  {
+    "id": "ESCAT0800000008100D",
+    "nom": "Mollet - Barri Santa Rosa"
+  },
+  {
+    "id": "ESCAT0800000008275A",
+    "nom": "Monistrol de Calders"
+  },
+  {
+    "id": "ESCAT0800000008160A",
+    "nom": "Montmeló-T.de la Bandera"
+  },
+  {
+    "id": "ESCAT0800000008170B",
+    "nom": "Montornés del V. - Lluch"
+  },
+  {
+    "id": "ESCAT0800000008460A",
+    "nom": "Montseny - Can Cervera"
+  },
+  {
+    "id": "ESCAT0800000008469A",
+    "nom": "Montseny - Les Arrels"
+  },
+  {
+    "id": "ESCAT0800000008640A",
+    "nom": "Olesa Montserrat-Eixample"
+  },
+  {
+    "id": "ESCAT0800000008516C",
+    "nom": "Olost - Mas Lliscàs"
+  },
+  {
+    "id": "ESCAT0800000008389B",
+    "nom": "Palafolls Mas La Pomareda"
+  },
+  {
+    "id": "ESCAT0800000008184C",
+    "nom": "Palau-solità i P. Cortés"
+  },
+  {
+    "id": "ESCAT0800000008150A",
+    "nom": "Parets del Vallès"
+  },
+  {
+    "id": "ESCAT0800000025716A",
+    "nom": "Pedraforca-PN CadíMoixeró"
+  },
+  {
+    "id": "ESCAT0800000008784D",
+    "nom": "Piera"
+  },
+  {
+    "id": "ESCAT0800000008397F",
+    "nom": "Pineda de Mar - Centre"
+  },
+  {
+    "id": "ESCAT0800000008397A",
+    "nom": "Pineda de Mar - Les Creus"
+  },
+  {
+    "id": "ESCAT0800000008397E",
+    "nom": "Pineda de Mar - Nord"
+  },
+  {
+    "id": "ESCAT0800000008694E",
+    "nom": "Puigllançada- Coll de Pal"
+  },
+  {
+    "id": "ESCAT0800000008618A",
+    "nom": "Refugi Rasos de Peguera"
+  },
+  {
+    "id": "ESCAT0800000008291D",
+    "nom": "Ripollet-centro"
+  },
+  {
+    "id": "ESCAT0800000008254C",
+    "nom": "Rocafort, Can Lleonart"
+  },
+  {
+    "id": "ESCAT0800000008510D",
+    "nom": "Roda de Ter - Escorxador"
+  },
+  {
+    "id": "ESCAT0800000008510A",
+    "nom": "Roda de Ter - Pla Xic"
+  },
+  {
+    "id": "ESCAT0800000008504D",
+    "nom": "Roda de Ter-l'Esquerda"
+  },
+  {
+    "id": "ESCAT0800000008191B",
+    "nom": "Rubí - Andromeda"
+  },
+  {
+    "id": "ESCAT0800000008191F",
+    "nom": "Rubí - La Serreta"
+  },
+  {
+    "id": "ESCAT0800000008191E",
+    "nom": "Rubí - Pl S.Allende"
+  },
+  {
+    "id": "ESCAT0800000008198A",
+    "nom": "S. Cugat Val. La Floresta"
+  },
+  {
+    "id": "ESCAT0800000008710B",
+    "nom": "S.M.Montbui - N.Antic"
+  },
+  {
+    "id": "ESCAT0800000008206G",
+    "nom": "Sabadell - Can Rull"
+  },
+  {
+    "id": "ESCAT0800000008202B",
+    "nom": "Sabadell - Centre"
+  },
+  {
+    "id": "ESCAT0800000008650B",
+    "nom": "Sallent [El Bages]"
+  },
+  {
+    "id": "ESCAT0800000008740E",
+    "nom": "Sant Andreu de la B-Palau"
+  },
+  {
+    "id": "ESCAT0800000008740D",
+    "nom": "Sant Andreu de la Barca"
+  },
+  {
+    "id": "ESCAT0800000008392A",
+    "nom": "Sant Andreu de Llavaneres"
+  },
+  {
+    "id": "ESCAT0800000008903D",
+    "nom": "Sant Boi - C. Cooperativa"
+  },
+  {
+    "id": "ESCAT0800000008830B",
+    "nom": "Sant Boi - Molí Nou"
+  },
+  {
+    "id": "ESCAT0800000008830C",
+    "nom": "Sant Boi de Llobregat"
+  },
+  {
+    "id": "ESCAT0800000008830E",
+    "nom": "Sant Boi Ll. - Marianao"
+  },
+  {
+    "id": "ESCAT0800000008470G",
+    "nom": "Sant Celoni - Diputació"
+  },
+  {
+    "id": "ESCAT0800000008470F",
+    "nom": "Sant Celoni - Vilardell"
+  },
+  {
+    "id": "ESCAT0800000008470D",
+    "nom": "Sant Celoni-Major de Dalt"
+  },
+  {
+    "id": "ESCAT0800000008849C",
+    "nom": "Sant Climent de Llobregat"
+  },
+  {
+    "id": "ESCAT0800000008635A",
+    "nom": "Sant Esteve Sesrovires N"
+  },
+  {
+    "id": "ESCAT0800000008980E",
+    "nom": "Sant Feliu de Llob.El Pla"
+  },
+  {
+    "id": "ESCAT0800000008980C",
+    "nom": "Sant Feliu Llob - Mestral"
+  },
+  {
+    "id": "ESCAT0800000008105C",
+    "nom": "Sant Fost - La Conreria"
+  },
+  {
+    "id": "ESCAT0800000008105B",
+    "nom": "Sant Fost - Mas Llombart"
+  },
+  {
+    "id": "ESCAT0800000008250B",
+    "nom": "Sant Joan de Vilatorrada"
+  },
+  {
+    "id": "ESCAT0800000008504E",
+    "nom": "Sant Julià d Vilatorta Aj"
+  },
+  {
+    "id": "ESCAT0800000008504A",
+    "nom": "Sant Julià de Vilatorta"
+  },
+  {
+    "id": "ESCAT0800000008712A",
+    "nom": "Sant Martí de Tous"
+  },
+  {
+    "id": "ESCAT0800000008569A",
+    "nom": "Sant Marti Sescorts"
+  },
+  {
+    "id": "ESCAT0800000008739B",
+    "nom": "Sant Pau D'Ordal"
+  },
+  {
+    "id": "ESCAT0800000008810A",
+    "nom": "Sant Pere de Ribes"
+  },
+  {
+    "id": "ESCAT0800000008776A",
+    "nom": "Sant Pere de Riudebitlles"
+  },
+  {
+    "id": "ESCAT0800000008776B",
+    "nom": "Sant Pere de Riudebitlles"
+  },
+  {
+    "id": "ESCAT0800000008777A",
+    "nom": "Sant Quintí de Mediona"
+  },
+  {
+    "id": "ESCAT0800000008192B",
+    "nom": "Sant Quirze del Vallés"
+  },
+  {
+    "id": "ESCAT0800000008770A",
+    "nom": "Sant Sadurní d'Anoia"
+  },
+  {
+    "id": "ESCAT0800000008504B",
+    "nom": "Sant Sadurní d'Osormort"
+  },
+  {
+    "id": "ESCAT0800000008295A",
+    "nom": "Sant Vicenç de Castellet"
+  },
+  {
+    "id": "ESCAT0800000008394B",
+    "nom": "Sant Vicenç de Montalt"
+  },
+  {
+    "id": "ESCAT0800000008509A",
+    "nom": "Santa Cecília de Voltregà"
+  },
+  {
+    "id": "ESCAT0800000008505B",
+    "nom": "Santa Eulàlia Riuprimer"
+  },
+  {
+    "id": "ESCAT0800000008273A",
+    "nom": "Santa Maria d'Oló"
+  },
+  {
+    "id": "ESCAT0800000008398A",
+    "nom": "Santa Susanna"
+  },
+  {
+    "id": "ESCAT0800000008505A",
+    "nom": "Sentfores"
+  },
+  {
+    "id": "ESCAT0800000008553A",
+    "nom": "Seva"
+  },
+  {
+    "id": "ESCAT0800000008553D",
+    "nom": "Seva Aj."
+  },
+  {
+    "id": "ESCAT0800000008870D",
+    "nom": "Sitges"
+  },
+  {
+    "id": "ESCAT0800000008870B",
+    "nom": "Sitges - Balmins"
+  },
+  {
+    "id": "ESCAT0800000008269B",
+    "nom": "St Mateu de Bages - Salo"
+  },
+  {
+    "id": "ESCAT0800000008192A",
+    "nom": "St Quirze del V -VallSuau"
+  },
+  {
+    "id": "ESCAT0800000008694B",
+    "nom": "St.J.Cerdanyola-Cal Solà"
+  },
+  {
+    "id": "ESCAT0800000008694D",
+    "nom": "St.J.Cerdanyola-Forcat"
+  },
+  {
+    "id": "ESCAT0800000008458H",
+    "nom": "St.Pere Vilamajor-Faldes"
+  },
+  {
+    "id": "ESCAT0800000008710A",
+    "nom": "Sta. Margarida de Montbui"
+  },
+  {
+    "id": "ESCAT0800000008260A",
+    "nom": "Suria"
+  },
+  {
+    "id": "ESCAT0800000008260D",
+    "nom": "Suria"
+  },
+  {
+    "id": "ESCAT0800000008260C",
+    "nom": "Súria"
+  },
+  {
+    "id": "ESCAT0800000008552C",
+    "nom": "Taradell"
+  },
+  {
+    "id": "ESCAT0800000008519C",
+    "nom": "Tavèrnoles - El Raurell"
+  },
+  {
+    "id": "ESCAT0800000008224A",
+    "nom": "Terrassa - Ca n'Aurell"
+  },
+  {
+    "id": "ESCAT0800000008225G",
+    "nom": "Terrassa - Can Boada"
+  },
+  {
+    "id": "ESCAT0800000008221B",
+    "nom": "Terrassa - Plaça Nova"
+  },
+  {
+    "id": "ESCAT0800000008226A",
+    "nom": "Terrassa - Sant Pere"
+  },
+  {
+    "id": "ESCAT0800000008224F",
+    "nom": "Terrassa-Centre"
+  },
+  {
+    "id": "ESCAT0800000008391C",
+    "nom": "Tiana"
+  },
+  {
+    "id": "ESCAT0800000008551B",
+    "nom": "Tona - IES"
+  },
+  {
+    "id": "ESCAT0800000008570A",
+    "nom": "Torelló"
+  },
+  {
+    "id": "ESCAT0800000008775B",
+    "nom": "Torrelavit"
+  },
+  {
+    "id": "ESCAT0800000008775A",
+    "nom": "Torrelavit"
+  },
+  {
+    "id": "ESCAT0800000008629A",
+    "nom": "Torrelles Ll. Can Tarrida"
+  },
+  {
+    "id": "ESCAT0800000008629C",
+    "nom": "Torrelles Llob.Can Güell"
+  },
+  {
+    "id": "ESCAT0800000008233A",
+    "nom": "Vacarisses"
+  },
+  {
+    "id": "ESCAT0800000008233B",
+    "nom": "Vacarisses Cam Serra"
+  },
+  {
+    "id": "ESCAT0800000008785A",
+    "nom": "Vallbona d'Anoia"
+  },
+  {
+    "id": "ESCAT0800000008195A",
+    "nom": "Valldoreix"
+  },
+  {
+    "id": "ESCAT0800000008471C",
+    "nom": "Vallgorguina"
+  },
+  {
+    "id": "ESCAT0800000008759A",
+    "nom": "Vallirana"
+  },
+  {
+    "id": "ESCAT0800000008188C",
+    "nom": "Vallromanes"
+  },
+  {
+    "id": "ESCAT0800000008188B",
+    "nom": "Vallromanes - Est"
+  },
+  {
+    "id": "ESCAT0800000008269A",
+    "nom": "Valls de Torroella"
+  },
+  {
+    "id": "ESCAT0800000008500A",
+    "nom": "Vic"
+  },
+  {
+    "id": "ESCAT0800000008500E",
+    "nom": "Vic - Zona Universitària"
+  },
+  {
+    "id": "ESCAT0800000008840A",
+    "nom": "Viladecans"
+  },
+  {
+    "id": "ESCAT0800000008232A",
+    "nom": "Viladecavalls"
+  },
+  {
+    "id": "ESCAT0800000008232B",
+    "nom": "Viladecavalls - Can Turu"
+  },
+  {
+    "id": "ESCAT0800000008232C",
+    "nom": "Viladecavalls - Centre"
+  },
+  {
+    "id": "ESCAT0800000008720C",
+    "nom": "Vilafranca Del Penedès"
+  },
+  {
+    "id": "ESCAT0800000008519E",
+    "nom": "Vilanova de Sau"
+  },
+  {
+    "id": "ESCAT0800000008800F",
+    "nom": "Vilanova i la Geltrú"
+  },
+  {
+    "id": "ESCAT0800000008340A",
+    "nom": "Vilassar de Mar"
+  },
+  {
+    "id": "ESCAT1700000017707A",
+    "nom": "Agullana"
+  },
+  {
+    "id": "ESCAT1700000017733B",
+    "nom": "Albanyà - Can Rossinyol"
+  },
+  {
+    "id": "ESCAT1700000017401C",
+    "nom": "Arbúcies - Fontdellops"
+  },
+  {
+    "id": "ESCAT1700000017401G",
+    "nom": "Arbúcies Aj."
+  },
+  {
+    "id": "ESCAT1700000017820B",
+    "nom": "Banyoles - INS el Pla"
+  },
+  {
+    "id": "ESCAT1700000017820C",
+    "nom": "Banyoles - Met Taliu"
+  },
+  {
+    "id": "ESCAT1700000017300B",
+    "nom": "Blanes - Santa Cristina"
+  },
+  {
+    "id": "ESCAT1700000017539A",
+    "nom": "Bolvir"
+  },
+  {
+    "id": "ESCAT1700000017462B",
+    "nom": "Bordils - Cultius MasCuní"
+  },
+  {
+    "id": "ESCAT1700000017770B",
+    "nom": "Borrassà"
+  },
+  {
+    "id": "ESCAT1700000017400A",
+    "nom": "Breda"
+  },
+  {
+    "id": "ESCAT1700000017240D",
+    "nom": "Cadiretes - Selva Brava"
+  },
+  {
+    "id": "ESCAT1700000017455A",
+    "nom": "Caldes - Can Carbonell"
+  },
+  {
+    "id": "ESCAT1700000017455B",
+    "nom": "Caldes - Can Gimferrer"
+  },
+  {
+    "id": "ESCAT1700000017455D",
+    "nom": "Caldes - Can Solà Gros"
+  },
+  {
+    "id": "ESCAT1700000017251B",
+    "nom": "Calonge"
+  },
+  {
+    "id": "ESCAT1700000017251A",
+    "nom": "Calonge - Vall des Molins"
+  },
+  {
+    "id": "ESCAT1700000017252A",
+    "nom": "Calonge i Sant Antoni"
+  },
+  {
+    "id": "ESCAT1700000017530C",
+    "nom": "Campdevànol- Vista Alegre"
+  },
+  {
+    "id": "ESCAT1700000017199D",
+    "nom": "Canet d'Adri- Can Vicens"
+  },
+  {
+    "id": "ESCAT1700000017856A",
+    "nom": "Castellfollit de la Roca"
+  },
+  {
+    "id": "ESCAT1700000017527A",
+    "nom": "Cereja"
+  },
+  {
+    "id": "ESCAT1700000017722A",
+    "nom": "Darnius"
+  },
+  {
+    "id": "ESCAT1700000017538A",
+    "nom": "Das"
+  },
+  {
+    "id": "ESCAT1700000017401B",
+    "nom": "El Colls 1"
+  },
+  {
+    "id": "ESCAT1700000017166E",
+    "nom": "El Pasteral"
+  },
+  {
+    "id": "ESCAT1700000017405A",
+    "nom": "Espinelves"
+  },
+  {
+    "id": "ESCAT1700000017600B",
+    "nom": "Figueres - La Cate"
+  },
+  {
+    "id": "ESCAT1700000017600A",
+    "nom": "Figueres - Nord"
+  },
+  {
+    "id": "ESCAT1700000017539B",
+    "nom": "GER"
+  },
+  {
+    "id": "ESCAT1700000017006A",
+    "nom": "Girona - Marfà"
+  },
+  {
+    "id": "ESCAT1700000017531A",
+    "nom": "Gombrèn"
+  },
+  {
+    "id": "ESCAT1700000017451C",
+    "nom": "Grions"
+  },
+  {
+    "id": "ESCAT1700000017451A",
+    "nom": "Grions - Can Puigmari"
+  },
+  {
+    "id": "ESCAT1700000017130C",
+    "nom": "L'Escala Closa d'en Llop"
+  },
+  {
+    "id": "ESCAT1700000017100A",
+    "nom": "La Bisbal d'Empordà - T"
+  },
+  {
+    "id": "ESCAT1700000017100C",
+    "nom": "La Bisbal d'Empordà LV"
+  },
+  {
+    "id": "ESCAT1700000017700A",
+    "nom": "La Jonquera"
+  },
+  {
+    "id": "ESCAT1700000017537A",
+    "nom": "La Molina"
+  },
+  {
+    "id": "ESCAT1700000017178B",
+    "nom": "La Vall d'en Bas - Mallol"
+  },
+  {
+    "id": "ESCAT1700000017466A",
+    "nom": "Les Olives"
+  },
+  {
+    "id": "ESCAT1700000017240F",
+    "nom": "Llagostera"
+  },
+  {
+    "id": "ESCAT1700000017240H",
+    "nom": "Llagostera - Cadiretes"
+  },
+  {
+    "id": "ESCAT1700000017240B",
+    "nom": "Llagostera - Can Gotarra"
+  },
+  {
+    "id": "ESCAT1700000017240G",
+    "nom": "Llagostera - Municipal"
+  },
+  {
+    "id": "ESCAT1700000017240C",
+    "nom": "Llagostera - Pla Panedes"
+  },
+  {
+    "id": "ESCAT1700000017490E",
+    "nom": "Llançà - Grifeu"
+  },
+  {
+    "id": "ESCAT1700000017310A",
+    "nom": "Lloret de Mar - Platja"
+  },
+  {
+    "id": "ESCAT1700000017452A",
+    "nom": "Massanes - Barri Marques"
+  },
+  {
+    "id": "ESCAT1700000017482A",
+    "nom": "Medinyà"
+  },
+  {
+    "id": "ESCAT1700000017830A",
+    "nom": "Mieres"
+  },
+  {
+    "id": "ESCAT1700000017752A",
+    "nom": "Mollet de P. - La Vinyeta"
+  },
+  {
+    "id": "ESCAT1700000017162C",
+    "nom": "Montfullà"
+  },
+  {
+    "id": "ESCAT1700000017800D",
+    "nom": "Olot - Costa del Gegant"
+  },
+  {
+    "id": "ESCAT1700000017800A",
+    "nom": "Olot - Pla de Dalt"
+  },
+  {
+    "id": "ESCAT1700000017800B",
+    "nom": "Olot-SPM"
+  },
+  {
+    "id": "ESCAT1700000017200C",
+    "nom": "Palafrugell"
+  },
+  {
+    "id": "ESCAT1700000017200H",
+    "nom": "Palafrugell Joan Capri 93"
+  },
+  {
+    "id": "ESCAT1700000017230E",
+    "nom": "Palamós"
+  },
+  {
+    "id": "ESCAT1700000017230D",
+    "nom": "Palamós - La Fosca"
+  },
+  {
+    "id": "ESCAT1700000017846B",
+    "nom": "Porqueres"
+  },
+  {
+    "id": "ESCAT1700000017490A",
+    "nom": "Port de Llançà"
+  },
+  {
+    "id": "ESCAT1700000017534E",
+    "nom": "Queralbs - Coma de Vaca"
+  },
+  {
+    "id": "ESCAT1700000017534F",
+    "nom": "Ribes de Freser - Serrat"
+  },
+  {
+    "id": "ESCAT1700000017451B",
+    "nom": "Riells - Cultius Ponç"
+  },
+  {
+    "id": "ESCAT1700000017421A",
+    "nom": "Riudarenes-Cultius Brugat"
+  },
+  {
+    "id": "ESCAT1700000017457B",
+    "nom": "Riudellots - Can Jordi"
+  },
+  {
+    "id": "ESCAT1700000017480A",
+    "nom": "Roses"
+  },
+  {
+    "id": "ESCAT1700000017751A",
+    "nom": "Sant Climent Sescebes"
+  },
+  {
+    "id": "ESCAT1700000017176B",
+    "nom": "Sant Esteve d'en Bas"
+  },
+  {
+    "id": "ESCAT1700000017220B",
+    "nom": "Sant Feliu de Guíxols"
+  },
+  {
+    "id": "ESCAT1700000017174A",
+    "nom": "Sant Feliu de Pallerols"
+  },
+  {
+    "id": "ESCAT1700000017150A",
+    "nom": "Sant Gregori"
+  },
+  {
+    "id": "ESCAT1700000017166A",
+    "nom": "Sant Hilari Sacalm"
+  },
+  {
+    "id": "ESCAT1700000017171A",
+    "nom": "Sant Martí Sacalm"
+  },
+  {
+    "id": "ESCAT1700000017475A",
+    "nom": "Sant Miquel de Fluvià"
+  },
+  {
+    "id": "ESCAT1700000017467A",
+    "nom": "Sant Mori"
+  },
+  {
+    "id": "ESCAT1700000017141C",
+    "nom": "Sobrestany"
+  },
+  {
+    "id": "ESCAT1700000017257B",
+    "nom": "Torroella de Montgrí"
+  },
+  {
+    "id": "ESCAT1700000017490B",
+    "nom": "Valleta"
+  },
+  {
+    "id": "ESCAT1700000017142C",
+    "nom": "Verges Ponent"
+  },
+  {
+    "id": "ESCAT1700000017411C",
+    "nom": "Vidreres - Can MassaSuria"
+  },
+  {
+    "id": "ESCAT1700000017180A",
+    "nom": "Vilablareix"
+  },
+  {
+    "id": "ESCAT1700000017474A",
+    "nom": "Vilamacolum"
+  },
+  {
+    "id": "ESCAT2500000025110B",
+    "nom": "Alpicat 2"
+  },
+  {
+    "id": "ESCAT2500000025140A",
+    "nom": "Arbeca"
+  },
+  {
+    "id": "ESCAT2500000025730C",
+    "nom": "Artesa de Segre"
+  },
+  {
+    "id": "ESCAT2500000025600A",
+    "nom": "Balaguer"
+  },
+  {
+    "id": "ESCAT2500000025220A",
+    "nom": "Bell-lloc d'Urgell"
+  },
+  {
+    "id": "ESCAT2500000025720B",
+    "nom": "Bellver de Cerdanya"
+  },
+  {
+    "id": "ESCAT2500000025334B",
+    "nom": "Castellserà"
+  },
+  {
+    "id": "ESCAT2500000025460B",
+    "nom": "Cervià de les Garrigues"
+  },
+  {
+    "id": "ESCAT2500000025793A",
+    "nom": "Coll de Nargó"
+  },
+  {
+    "id": "ESCAT2500000025412C",
+    "nom": "Els Omellons"
+  },
+  {
+    "id": "ESCAT2500000025794A",
+    "nom": "Fígols i Alinyà-Canelles"
+  },
+  {
+    "id": "ESCAT2500000025655B",
+    "nom": "Figuerola d'Orcau"
+  },
+  {
+    "id": "ESCAT2500000025716A",
+    "nom": "Gósol"
+  },
+  {
+    "id": "ESCAT2500000025430B",
+    "nom": "Juneda - Plaça Església"
+  },
+  {
+    "id": "ESCAT2500000025177A",
+    "nom": "La Granadella"
+  },
+  {
+    "id": "ESCAT2500000025700A",
+    "nom": "La Seu d'Urgell"
+  },
+  {
+    "id": "ESCAT2500000025515A",
+    "nom": "La Torre de Cabdella"
+  },
+  {
+    "id": "ESCAT2500000025199A",
+    "nom": "Lleida - Ciutat Jardí"
+  },
+  {
+    "id": "ESCAT2500000025284E",
+    "nom": "Port del Comte 6Q3R"
+  },
+  {
+    "id": "ESCAT2500000025316A",
+    "nom": "Pradell de Sió"
+  },
+  {
+    "id": "ESCAT2500000025566A",
+    "nom": "Rubió"
+  },
+  {
+    "id": "ESCAT2500000025518A",
+    "nom": "Sant Martí de Canals"
+  },
+  {
+    "id": "ESCAT2500000025280B",
+    "nom": "Solsona"
+  },
+  {
+    "id": "ESCAT2500000025720A",
+    "nom": "Sta Magdalena de Serinyà"
+  },
+  {
+    "id": "ESCAT2500000025654B",
+    "nom": "Suterranya"
+  },
+  {
+    "id": "ESCAT2500000025654C",
+    "nom": "Suterranya / Era del Pere"
+  },
+  {
+    "id": "ESCAT2500000025717B",
+    "nom": "Tuixent - La Vansa"
+  },
+  {
+    "id": "ESCAT2500000025552A",
+    "nom": "Vilaller - Txambonet"
+  },
+  {
+    "id": "ESCAT4300000043530B",
+    "nom": "Alcanar - St. Antoni"
+  },
+  {
+    "id": "ESCAT4300000043393E",
+    "nom": "Almoster - Picarany"
+  },
+  {
+    "id": "ESCAT4300000043393C",
+    "nom": "Almoster - Sud"
+  },
+  {
+    "id": "ESCAT4300000043711A",
+    "nom": "Banyeres del Penedès"
+  },
+  {
+    "id": "ESCAT4300000043413A",
+    "nom": "Belltall"
+  },
+  {
+    "id": "ESCAT4300000043719A",
+    "nom": "Bellvei"
+  },
+  {
+    "id": "ESCAT4300000043373A",
+    "nom": "Cabassers"
+  },
+  {
+    "id": "ESCAT4300000043850E",
+    "nom": "Cambrils l'Eixample"
+  },
+  {
+    "id": "ESCAT4300000043880B",
+    "nom": "Coma-ruga"
+  },
+  {
+    "id": "ESCAT4300000043427A",
+    "nom": "Conesa"
+  },
+  {
+    "id": "ESCAT4300000043120A",
+    "nom": "Constantí"
+  },
+  {
+    "id": "ESCAT4300000043360B",
+    "nom": "Cornudella de Montsant"
+  },
+  {
+    "id": "ESCAT4300000043360C",
+    "nom": "Cornudella IE Corbatera"
+  },
+  {
+    "id": "ESCAT4300000043746D",
+    "nom": "Darmós"
+  },
+  {
+    "id": "ESCAT4300000043764A",
+    "nom": "El Catllar"
+  },
+  {
+    "id": "ESCAT4300000043700B",
+    "nom": "El Vendrell - Televisió"
+  },
+  {
+    "id": "ESCAT4300000043151C",
+    "nom": "Els Pallaresos"
+  },
+  {
+    "id": "ESCAT4300000043730C",
+    "nom": "Falset"
+  },
+  {
+    "id": "ESCAT4300000043730G",
+    "nom": "Falset - els Masos"
+  },
+  {
+    "id": "ESCAT4300000043730E",
+    "nom": "Falset - Fuïna"
+  },
+  {
+    "id": "ESCAT4300000043730F",
+    "nom": "Falset - les Esplanes"
+  },
+  {
+    "id": "ESCAT4300000043730D",
+    "nom": "Falset - Les Torres"
+  },
+  {
+    "id": "ESCAT4300000043425A",
+    "nom": "Glorieta"
+  },
+  {
+    "id": "ESCAT4300000043890A",
+    "nom": "Hosp.de l'Infant - Centre"
+  },
+  {
+    "id": "ESCAT4300000043720F",
+    "nom": "L'Arboç Can Suriol"
+  },
+  {
+    "id": "ESCAT4300000043450B",
+    "nom": "La Riba"
+  },
+  {
+    "id": "ESCAT4300000043470A",
+    "nom": "La Selva del Camp"
+  },
+  {
+    "id": "ESCAT4300000043560A",
+    "nom": "La Sénia"
+  },
+  {
+    "id": "ESCAT4300000043374A",
+    "nom": "La Vilella Baixa"
+  },
+  {
+    "id": "ESCAT4300000043884B",
+    "nom": "Les Moreres - Bonastre"
+  },
+  {
+    "id": "ESCAT4300000043382A",
+    "nom": "Maspujols"
+  },
+  {
+    "id": "ESCAT4300000043400B",
+    "nom": "Montblanc"
+  },
+  {
+    "id": "ESCAT4300000043714A",
+    "nom": "Pla de Manlleu"
+  },
+  {
+    "id": "ESCAT4300000043816B",
+    "nom": "Querol"
+  },
+  {
+    "id": "ESCAT4300000046816A",
+    "nom": "Querol Can Llenas"
+  },
+  {
+    "id": "ESCAT4300000043816D",
+    "nom": "Querol-920m Formigosa"
+  },
+  {
+    "id": "ESCAT4300000043715A",
+    "nom": "Querol-Bonany-Cal Pau"
+  },
+  {
+    "id": "ESCAT4300000043205A",
+    "nom": "Reus - Antic Velòdrom"
+  },
+  {
+    "id": "ESCAT4300000043201C",
+    "nom": "Reus - Carme"
+  },
+  {
+    "id": "ESCAT4300000043201A",
+    "nom": "Reus - Centre"
+  },
+  {
+    "id": "ESCAT4300000043206B",
+    "nom": "Reus - Nord"
+  },
+  {
+    "id": "ESCAT4300000043201B",
+    "nom": "Reus - Vallroquetes"
+  },
+  {
+    "id": "ESCAT4300000043330A",
+    "nom": "Riudoms"
+  },
+  {
+    "id": "ESCAT4300000043840A",
+    "nom": "Salou - Barenys"
+  },
+  {
+    "id": "ESCAT4300000043540A",
+    "nom": "Sant Carles de la Rapita"
+  },
+  {
+    "id": "ESCAT4300000043860A",
+    "nom": "St. Jordi d'Alfama - Bosc"
+  },
+  {
+    "id": "ESCAT4300000043003B",
+    "nom": "Tarragona-Fortí St.Jordi"
+  },
+  {
+    "id": "ESCAT4300000043830A",
+    "nom": "Torredembarra - C/Pandols"
+  },
+  {
+    "id": "ESCAT4300000043550A",
+    "nom": "Ulldecona - Pou Jua"
+  },
+  {
+    "id": "ESCAT4300000043559A",
+    "nom": "Ulldecona-S. Joan del Pas"
+  },
+  {
+    "id": "ESCAT4300000043144A",
+    "nom": "Vallmoll"
   }
-  // ... (continua amb la resta d'elements)
 ]
