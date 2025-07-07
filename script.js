@@ -179,11 +179,8 @@ function loadStationData() {
         alert('Si us plau, introdueix una referència d\'estació');
         return;
     }
-    const loadingDiv = document.getElementById('loadingMessage');
-    if (loadingDiv) {
-        loadingDiv.textContent = 'Descarregant dades de l\'estació...';
-        loadingDiv.style.display = 'block';
-    }
+    document.getElementById('loadingMessage').textContent = 'Descarregant dades de l\'estació...';
+    document.getElementById('loadingMessage').style.display = 'block';
     document.getElementById('weatherInfo').classList.remove('show');
     document.querySelector('.upload-section').style.display = 'none';
     const feedUrl = `https://corsproxy.io/?http://meteoclimatic.net/feed/rss/${stationRef}`;
@@ -199,10 +196,7 @@ function loadStationData() {
         })
         .catch(error => {
             console.error('Error:', error);
-            const loadingDiv = document.getElementById('loadingMessage');
-            if (loadingDiv) {
-                loadingDiv.textContent = '❌ Error en descarregar les dades de l\'estació';
-            }
+            document.getElementById('loadingMessage').textContent = '❌ Error en descarregar les dades de l\'estació';
             document.querySelector('.upload-section').style.display = 'block';
         });
 }
