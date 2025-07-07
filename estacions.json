@@ -1,0 +1,175 @@
+[
+  {
+    "ID": "ESCAT0800000008591B",
+    "Nom": "Aiguafreda Aj."
+  },
+  {
+    "ID": "ESCAT0800000008328F",
+    "Nom": "Alella-Mirador"
+  },
+  {
+    "ID": "ESCAT0800000008350A",
+    "Nom": "Arenys de Mar"
+  },
+  {
+    "ID": "ESCAT0800000008358A",
+    "Nom": "Arenys de Munt"
+  },
+  {
+    "ID": "ESCAT0800000008310B",
+    "Nom": "Argentona"
+  },
+  {
+    "ID": "ESCAT0800000008610B",
+    "Nom": "Avià"
+  },
+  {
+    "ID": "ESCAT0800000008610A",
+    "Nom": "Avià - Sud"
+  },
+  {
+    "ID": "ESCAT0800000008915C",
+    "Nom": "Badalona - BCIN"
+  },
+  {
+    "ID": "ESCAT0800000008915A",
+    "Nom": "Badalona - Bufalà"
+  },
+  {
+    "ID": "ESCAT0800000008912A",
+    "Nom": "Badalona - Centre"
+  },
+  {
+    "ID": "ESCAT0800000008911C",
+    "Nom": "Badalona - Dalt la Vila"
+  },
+  {
+    "ID": "ESCAT0800000008080A",
+    "Nom": "Badalona - Llefià"
+  },
+  {
+    "ID": "ESCAT0800000008912B",
+    "Nom": "Badalona - Progres"
+  },
+  {
+    "ID": "ESCAT0800000008913B",
+    "Nom": "Badalona-St.Antoni Llefià"
+  },
+  {
+    "ID": "ESCAT0800000008695C",
+    "Nom": "Bagà"
+  },
+  {
+    "ID": "ESCAT0800000008695A",
+    "Nom": "Bagà"
+  },
+  {
+    "ID": "ESCAT0800000008695H",
+    "Nom": "Bagà"
+  },
+  {
+    "ID": "ESCAT0800000008695D",
+    "Nom": "Bagà"
+  },
+  {
+    "ID": "ESCAT0800000008002A",
+    "Nom": "Barcelona - Barri Gòtic"
+  },
+  {
+    "ID": "ESCAT0800000008018D",
+    "Nom": "Barcelona - betevé"
+  },
+  {
+    "ID": "ESCAT0800000008030C",
+    "Nom": "Barcelona - Bon Pastor"
+  },
+  {
+    "ID": "ESCAT0800000008014C",
+    "Nom": "Barcelona - Can Bruixa"
+  },
+  {
+    "ID": "ESCAT0800000008030E",
+    "Nom": "Barcelona - Casa  l'Aigua"
+  },
+  {
+    "ID": "ESCAT0800000008018A",
+    "Nom": "Barcelona - El Clot"
+  },
+  {
+    "ID": "ESCAT0800000008023D",
+    "Nom": "Barcelona - El Coll-Vallcarca"
+  },
+  {
+    "ID": "ESCAT0800000008024A",
+    "Nom": "Barcelona - Gràcia"
+  },
+  {
+    "ID": "ESCAT0800000008032A",
+    "Nom": "Barcelona - Horta"
+  },
+  {
+    "ID": "ESCAT0800000008028D",
+    "Nom": "Barcelona - Hosp. Dexeus"
+  },
+  {
+    "ID": "ESCAT0800000008014G",
+    "Nom": "Barcelona - Hostafrancs"
+  },
+  {
+    "ID": "ESCAT0800000008008A",
+    "Nom": "Barcelona - La Pedrera"
+  },
+  {
+    "ID": "ESCAT0800000008020A",
+    "Nom": "Barcelona - La Verneda"
+  },
+  {
+    "ID": "ESCAT0800000008031A",
+    "Nom": "Barcelona - Nou Barris"
+  },
+  {
+    "ID": "ESCAT0800000008014F",
+    "Nom": "Barcelona - Plaça Sants"
+  },
+  {
+    "ID": "ESCAT0800000008005A",
+    "Nom": "Barcelona - Poblenou"
+  },
+  {
+    "ID": "ESCAT0800000008009B",
+    "Nom": "Barcelona - Ps. Sant Joan"
+  },
+  {
+    "ID": "ESCAT0800000008017D",
+    "Nom": "Barcelona - Rectoret"
+  },
+  {
+    "ID": "ESCAT0800000008023I",
+    "Nom": "Barcelona - Sant Gervasi"
+  },
+  {
+    "ID": "ESCAT0800000008018E",
+    "Nom": "Barcelona - Sant Martí"
+  },
+  {
+    "ID": "ESCAT0800000008017B",
+    "Nom": "Barcelona - Sarrià"
+  },
+  {
+    "ID": "ESCAT0800000008034A",
+    "Nom": "Barcelona - Sarrià"
+  },
+  {
+    "ID": "ESCAT0800000008023C",
+    "Nom": "Barcelona - Tibidabo"
+  },
+  {
+    "ID": "ESCAT0800000008014B",
+    "Nom": "Barcelona Sants-Montjuïc"
+  },
+  {
+    "ID": "ESCAT0800000008027C",
+    "Nom": "Barcelona-TorGuineu Navas"
+  }
+  // ... (continua amb la resta d'elements)
+]
