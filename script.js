@@ -179,8 +179,7 @@ function loadStationData() {
         alert('Si us plau, introdueix una referència d\'estació');
         return;
     }
-    document.getElementById('loadingMessage').textContent = 'Descarregant dades de l\'estació...';
-    document.getElementById('loadingMessage').style.display = 'block';
+    // ...eliminado mensaje de carga...
     document.getElementById('weatherInfo').classList.remove('show');
     document.querySelector('.upload-section').style.display = 'none';
     const feedUrl = `https://corsproxy.io/?http://meteoclimatic.net/feed/rss/${stationRef}`;
@@ -196,15 +195,12 @@ function loadStationData() {
         })
         .catch(error => {
             console.error('Error:', error);
-            document.getElementById('loadingMessage').textContent = '❌ Error en descarregar les dades de l\'estació';
             document.querySelector('.upload-section').style.display = 'block';
         });
 }
 
 // Botó per carregar Molins de Rei
 document.getElementById('fetchXml').addEventListener('click', function () {
-    document.getElementById('loadingMessage').textContent = 'Descarregant dades...';
-    document.getElementById('loadingMessage').style.display = 'block';
     document.getElementById('weatherInfo').classList.remove('show');
     document.querySelector('.upload-section').style.display = 'none';
     fetch('https://corsproxy.io/?http://meteoclimatic.net/feed/rss/ESCAT0800000008750B')
@@ -213,7 +209,6 @@ document.getElementById('fetchXml').addEventListener('click', function () {
             processXml(xmlText);
         })
         .catch(() => {
-            document.getElementById('loadingMessage').textContent = '❌ Error en descarregar les dades';
             document.querySelector('.upload-section').style.display = 'block';
         });
 });
@@ -249,7 +244,6 @@ function processXml(xmlText) {
     const match = xmlText.match(dataRegex);
 
     if (!match) {
-        document.getElementById('loadingMessage').textContent = '❌ No s\'ha pogut analitzar les dades de l\'estació';
         return;
     }
 
@@ -292,7 +286,6 @@ function processXml(xmlText) {
         };
     }
 
-    document.getElementById('loadingMessage').style.display = 'none';
     document.getElementById('weatherInfo').classList.add('show');
     document.querySelector('.upload-section').style.display = 'none';
     document.getElementById('resetButton').style.display = 'block';
@@ -303,8 +296,6 @@ document.getElementById('resetButton').addEventListener('click', function() {
     document.getElementById('weatherInfo').classList.remove('show');
     document.getElementById('resetButton').style.display = 'none';
     document.querySelector('.upload-section').style.display = 'block';
-    document.getElementById('loadingMessage').textContent = 'Esperant arxiu XML...';
-    document.getElementById('loadingMessage').style.display = 'block';
     document.getElementById('stationReference').value = '';
     document.getElementById('suggestionsList').style.display = 'none';
 });

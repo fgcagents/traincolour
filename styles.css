@@ -196,18 +196,7 @@ button:hover {
   box-shadow: 0 10px 20px rgba(16, 185, 129, 0.3);
 }
 
-.loading {
-  text-align: center;
-  color: #64748b;
-  font-style: italic;
-  padding: 40px 20px;
-  background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(10px);
-  border-radius: 16px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  position: relative; /* Añade esta línea */
-  z-index: 1000; /* Añade esta línea */
-}
+/* Eliminada la clase .loading porque ya no se usa */
 
 .station-search-container {
   position: relative;
