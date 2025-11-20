@@ -1,0 +1,31 @@
+ 
+[
+  {
+    "Data": "31/12/2025",
+    "Servei BV": 102,
+    "Dia_Set": "Dx",
+    "Dia_Mes": "31 Dec",
+    "Dia_Num": "D365"
+  },
+  {
+    "Data": "01/01/2026",
+    "Servei BV": 100,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "01 Jan",
+    "Dia_Num": "D001"
+  },
+  {
+    "Data": "02/01/2026",
+    "Servei BV": 200,
+    "Dia_Set": "Dl",
+    "Dia_Mes": "02 Jan",
+    "Dia_Num": "D002"
+  },
+  {
+    "Data": "03/01/2026",
+    "Servei BV": 300,
+    "Dia_Set": "Dm",
+    "Dia_Mes": "03 Jan",
+    "Dia_Num": "D003"
+  }
+]

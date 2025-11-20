@@ -1,0 +1,36 @@
+ 
+[
+  {
+    "Torn": "AAL1",
+    "Servei 1": 100200300,
+    "Inici S1": "5:40",
+    "Final S1": "13:40",
+    "Servei 2": 400500,
+    "Inici S2": "6:00",
+    "Final S2": "14:00",
+    "Línia": "LA",
+    "Zona": "F"
+  },
+  {
+    "Torn": "BBM2",
+    "Servei 1": 600700,
+    "Inici S1": "6:30",
+    "Final S1": "14:30",
+    "Servei 2": 800900,
+    "Inici S2": "15:00",
+    "Final S2": "23:00",
+    "Línia": "LB",
+    "Zona": "M"
+  },
+  {
+    "Torn": "CCN3",
+    "Servei 1": 100,
+    "Inici S1": "7:00",
+    "Final S1": "15:00",
+    "Servei 2": 200,
+    "Inici S2": "16:00",
+    "Final S2": "00:00",
+    "Línia": "LC",
+    "Zona": "N"
+  }
+]
