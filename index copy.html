@@ -246,7 +246,6 @@
             box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
         }
     </style>
-<base target="_blank">
 </head>
 <body>
     <div class="container">
@@ -272,8 +271,8 @@
         <div class="custom-card">
             <div class="card-title">🔍 Cerca el teu torn</div>
             <div class="chat-input-wrapper">
-                <span class="chat-icon">💬</span>
-                <input type="text" id="searchInput" placeholder="Escriu l'ID del torn (AAL1,ACFO,...)">
+                <!-- <span class="chat-icon">💬</span> -->
+                <input type="text" id="searchInput" placeholder="Escriu l'ID del torn (AAL1, ACFO)...">
             </div>
             <div id="autocompleteDropdown" class="autocomplete-dropdown"></div>
         </div>
@@ -297,7 +296,6 @@
         let CALENDARI = {};
         let SERVEI_DIA_ACTUAL = 'N/A';
         let DADES_CARREGADES = false;
-        let TORN_SELECCIONAT = null; // NUEVA VARIABLE: guarda el torn seleccionat
 
         // ======= FUNCIONS DE PARSEIG =======
         function parseDateISO(dateStr) {
@@ -475,13 +473,7 @@
         function handleDateChange(event) {
             const data = event.target.value;
             actualitzarServeiDia(data);
-            
-            // NOVA FUNCIONALITAT: Si hi ha un torn seleccionat, tornar a cercar automàticament
-            if (TORN_SELECCIONAT) {
-                setTimeout(() => {
-                    cercarHorari(TORN_SELECCIONAT);
-                }, 100); // Petit delay per assegurar que el servei s'ha actualitzat
-            }
+            tornarACercar();
         }
 
         function actualitzarServeiDia(data) {
@@ -542,10 +534,7 @@
         function seleccionarTorn(tornId) {
             document.getElementById('searchInput').value = tornId;
             document.getElementById('autocompleteDropdown').style.display = 'none';
-            
-            // NOVA: Guardar torn seleccionat i cercar
-            TORN_SELECCIONAT = tornId.toUpperCase();
-            cercarHorari(TORN_SELECCIONAT);
+            cercarHorari(tornId);
         }
 
         function handleClickOutside(event) {
@@ -559,8 +548,7 @@
         function cercarHorari(tornId) {
             if (!DADES_CARREGADES) return;
 
-            // NOVA: Prioritzar el torn guardat si no es passa com a paràmetre
-            const id = tornId || TORN_SELECCIONAT || document.getElementById('searchInput').value;
+            const id = tornId || document.getElementById('searchInput').value;
             if (!id || SERVEI_DIA_ACTUAL === 'N/A') {
                 mostrarEmptyState();
                 return;
