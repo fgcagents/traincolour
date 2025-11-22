@@ -337,17 +337,11 @@ function mostrarResultats(resultats, tornCercat) {
 
     emptyState.classList.remove('active');
 
-    container.innerHTML = `
-    <div class="success-banner">
-        ✅ Horari trobat per ${tornCercat} • Servei: ${SERVEI_DIA_ORIGINAL.trim()}
-    </div>
-    <div class="results-card">
-    
-   /*container.innerHTML = `
+    container.innerHTML = `
         <div class="success-banner">
-            ✅ Horari trobat per ${tornCercat}
+          ✅ Horari trobat per ${tornCercat} • Servei: ${SERVEI_DIA_ORIGINAL.trim()}
         </div>
-        <div class="results-card">*/
+        <div class="results-card">
             <table>
                 <thead>
                     <tr>
