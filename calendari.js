@@ -244,6 +244,15 @@ function handleClickOutside(event) {
 }
 
 // ======= LÒGICA DE CERCA =======
+function obtenirServeiEfectiu(serveiDia, liniaTorn) {
+    // Lògica especial per la línia LA: 800→200, 900→300
+    if (liniaTorn === 'LA') {
+        if (serveiDia === '800') return '200';
+        if (serveiDia === '900') return '300';
+    }
+    return serveiDia;
+}
+
 function cercarHorari(tornId) {
     if (!DADES_CARREGADES) return;
 
@@ -259,9 +268,12 @@ function cercarHorari(tornId) {
         return;
     }
 
+    // Determinar el servei efectiu segons la lògica especial per LA
+    const serveiEfectiu = obtenirServeiEfectiu(SERVEI_DIA_ACTUAL, torn.linia);
+
     const resultats = [];
     Object.values(torn.serveis).forEach(servei => {
-        if (servei.codis.includes(SERVEI_DIA_ACTUAL)) {
+        if (servei.codis.includes(serveiEfectiu)) {
             resultats.push({
                 torn: id.toUpperCase(),
                 inici: servei.inici,
