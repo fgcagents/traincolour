@@ -210,17 +210,16 @@ function cercarHorari(tornId) {
 
   const resultats = [];
   Object.values(torn.serveis).forEach((servei) => {
-    // Comparar només els dos primers caràcters de cada codi
-    if (servei.codis.some((codi) => codi.substring(0,2) === lookFor)) {
-      resultats.push({
-        torn: id.toUpperCase(),
-        inici: servei.inici,
-        fi: servei.fi,
-        linia: torn.linia,
-        zona: torn.zona
-      });
-    }
-  });
+  if (servei.codis.some((codi) => codi.substring(0,2) === serveiEfectiu.substring(0,2))) {
+    resultats.push({
+      torn: id.toUpperCase(),
+      inici: servei.inici,
+      fi: servei.fi,
+      linia: torn.linia,
+      zona: torn.zona
+    });
+  }
+});
   mostrarResultats(resultats, id.toUpperCase());
 }
 
@@ -262,3 +261,4 @@ document.getElementById("current-year").textContent = new Date().getFullYear();
 
 // INICI
 inicialitzaAplicacio();
+
