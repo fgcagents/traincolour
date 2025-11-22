@@ -2,6 +2,7 @@
 let TORNS = {};
 let CALENDARI = {};
 let SERVEI_DIA_ACTUAL = 'N/A';
+let SERVEI_DIA_ORIGINAL = 'N/A'; // Nou: per guardar el servei original
 let DADES_CARREGADES = false;
 let TORN_SELECCIONAT = null;
 
@@ -194,15 +195,29 @@ function actualitzarServeiDia(data) {
     const badge = document.getElementById('serviceBadge');
     
     if (diaInfo && diaInfo.servei) {
+        SERVEI_DIA_ORIGINAL = diaInfo.servei;
+        
+        // Determinar si cal mostrar servei alternatiu per línia LA
+        let serveiMostrar = diaInfo.servei.trim();
+        let textAlternatiu = '';
+        
+        if (comparaCodis(diaInfo.servei, '800')) {
+            textAlternatiu = ' (200 per LA)';
+        } else if (comparaCodis(diaInfo.servei, '900')) {
+            textAlternatiu = ' (300 per LA)';
+        }
+        
         SERVEI_DIA_ACTUAL = diaInfo.servei;
+        
         badge.innerHTML = `
             <div class="service-badge">
                 <div class="service-label">SERVEI DEL DIA</div>
-                <div class="service-value">${diaInfo.servei.trim()}</div>
+                <div class="service-value">${serveiMostrar}${textAlternatiu}</div>
             </div>
         `;
     } else {
         SERVEI_DIA_ACTUAL = 'N/A';
+        SERVEI_DIA_ORIGINAL = 'N/A';
         badge.innerHTML = `
             <div class="warning-box">
                 ⚠️ No s'ha trobat informació per aquesta data
@@ -365,5 +380,5 @@ function mostrarError(missatge) {
 // Funció per mostrar l'any actual al footer
 document.getElementById('current-year').textContent = new Date().getFullYear();
 
-// ======= INICIAR APLICACIÓ ======//
+// ======= INICIAR APLICACIÓ =======
 inicialitzaAplicacio();
