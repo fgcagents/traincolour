@@ -343,11 +343,11 @@ function mostrarResultats(resultats, tornCercat) {
     </div>
     <div class="results-card">
     
-   <!-- container.innerHTML = `
+   //container.innerHTML = `
         <div class="success-banner">
             ✅ Horari trobat per ${tornCercat}
         </div>
-        <div class="results-card">-->
+        <div class="results-card">//
             <table>
                 <thead>
                     <tr>
