@@ -1,0 +1,150 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0 20px 0 20px;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+
+
+    form, #resultat {
+        width: 100%; /* Amplada màxima per dispositius mòbils */
+    }
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-top: 80px;
+    margin-bottom: 1rem;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    gap: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto; /* Centra els elements i afegeix espai vertical */
+    width: 100%; /* Assegura que ocupi tota l’amplada disponible */
+    box-sizing: border-box; /* Inclou el padding dins de l’amplada */
+    /*margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;*/
+}
+
+input[type="number"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #0a0000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0a0000;
+}
+
+#error {
+    color: #d9534f;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#resultat {
+    margin: 0;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto; /* Centra els elements i afegeix espai vertical */
+    width: 100%; /* Assegura que ocupi tota l’amplada disponible */
+    box-sizing: border-box; /* Inclou el padding dins de l’amplada */
+    /*margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;*/
+}
+
+table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #0a0000;
+    color: white;
+    font-weight: normal;
+}
+
+.import-total {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    text-align: center;
+}
+
+footer {
+    margin-top: 80px;
+    background-color: #0a0000;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 0.65em;
+    letter-spacing: 1px;
+    width: fit-content;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Estils per als estils inline movedts */
+.navbar-link-light {
+    font-weight: 400;
+}
+
+.resultat-hidden {
+    display: none;
+}
+
+.resultat-hidden.visible {
+    display: block;
+}
+
+.resultat-title {
+    text-align: center;
+    font-size: 1.25rem;
+    margin: 0 0 1rem 0;
+}
+
+.error-hidden {
+    display: none;
+}
+
+.error-hidden.visible {
+    display: block;
+}

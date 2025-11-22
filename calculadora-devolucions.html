@@ -1,0 +1,52 @@
+ <!DOCTYPE html>
+<html lang="ca">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6CHCYVEYTN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6CHCYVEYTN');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora devolucions</title>
+    <link rel="stylesheet" href="menu.css"> <!-- Estils del menú -->
+    <link rel="stylesheet" href="calculadora-devolucions.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@200..700&display=swap">
+</head>
+<body>
+    <!-- Menú reutilitzable -->
+    <div class="navbar">
+        <a href="index.html" class="navbar-link-light">FGC utilitats</a>
+        <div class="menu-toggle" id="menu-toggle">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="menu" id="menu">
+            <a href="index.html">Cercador Horari</a>
+            <a href="calculadora-devolucions.html">Devolucions</a>
+            <a href="isic.html">Pantalles ISIC</a>
+			<a href="calendari.html">Calendari Serveis</a>
+        </div>
+    </div>
+    <h1>Devolucions</h1>
+    <form id="formulari">
+        <input type="number" id="import" step="0.05" min="0.05" max="20" placeholder="Ex.: 4.15" required>
+        <button type="submit">Calcular</button>
+    </form>
+    <div id="resultat" class="resultat-hidden">
+        <p class="resultat-title">Resultat:</p>
+        <div id="detalls"></div>
+    </div>
+    <p id="error" class="error-message error-hidden"></p>
+    <footer>
+        J_E_O © <span id="current-year"></span>
+    </footer>
+    <script src="menu.js"></script> <!-- Comportament del menú -->
+    <script src="calculadora-devolucions.js"></script>
+</body>
+</html>

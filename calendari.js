@@ -328,5 +328,9 @@ function mostrarError(missatge) {
     document.getElementById('serviceBadge').innerHTML = `<div class="error-box">${missatge}</div>`;
 }
 
+// Funció per mostrar l'any actual al footer
+document.getElementById('current-year').textContent = new Date().getFullYear();
+
+
 // ======= INICIAR APLICACIÓ =======
 inicialitzaAplicacio();
