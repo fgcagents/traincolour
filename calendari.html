@@ -3,84 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calendari de Torns</title>
+    <title>Calendari de torns</title>
     <link rel="stylesheet" href="calendari.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="calendari-container">
         <!-- Header -->
         <div class="calendari-header">
-            <h1 class="calendari-title">Calendari de Torns</h1>
+            <h1 class="calendari-title">Calendari de torns</h1>
         </div>
 
-        <!-- Selector de data -->
-        <div class="custom-card">
-            <label class="card-title">Selecciona una data:</label>
-            <input type="date" id="dateSelector">
-        </div>
-
-        <!-- Badge de servei -->
+        <!-- Badge de servei actual -->
         <div class="service-badge">
             <div class="service-label">Servei del dia</div>
-            <div class="service-value" id="serviceBadge">N/A</div>
+            <div class="service-code" id="serveiActual">Carregant...</div>
         </div>
 
-        <!-- Card de cerca -->
-        <div class="custom-card">
-            <label class="card-title">Cerca el teu torn</label>
-            <div class="chat-input-wrapper">
-                <span class="chat-icon">🔍</span>
-                <input 
-                    type="text" 
-                    id="searchInput" 
-                    placeholder="Escriu el torn (ej: T001, T002...)"
-                    autocomplete="off"
-                >
-            </div>
-            <div class="autocomplete-dropdown" id="autocompleteDropdown"></div>
-        </div>
+        <!-- Card de cerca de torn -->
+        <div class="search-card">
+            <label for="searchInput" class="search-label">Cerca el teu torn</label>
+            <input 
+                type="text" 
+                id="searchInput" 
+                class="search-input" 
+                placeholder="Ex: T001, Torn A..."
+                autocomplete="off">
+            <button onclick="cercarTorn()" class="search-btn">Cercar</button>
 
-        <!-- Contenidor de resultats -->
-        <div class="results-container" id="resultsContainer" style="display: none;">
-            <div class="success-banner">✅ Horari encontrat</div>
-            <div class="results-card">
-                <table id="resultsTable">
-                    <thead>
-                        <tr>
-                            <th>Torn</th>
-                            <th>Inici</th>
-                            <th>Fi</th>
-                            <th>Línia</th>
-                            <th>Zona</th>
-                        </tr>
-                    </thead>
-                    <tbody id="resultsBody">
-                    </tbody>
-                </table>
-            </div>
+            <!-- Contenidor de resultats -->
+            <div id="resultsContainer" class="results-container"></div>
 
-            <!-- Botó Mapa de Presència -->
-            <button class="mapa-presencia-btn" id="mapaPresenciaBtn">
-                📍 Mapa de Presència
+            <!-- NOU: Botó Mapa de presència -->
+            <button id="btnMapaPresencia" class="mapa-btn" onclick="toggleMapaPresencia()" style="display: none;">
+                📍 Mapa de presència
             </button>
 
-            <!-- Contenidor desplegable del markdown -->
-            <div class="markdown-container collapsed" id="markdownContainer">
-                <div class="markdown-content" id="markdownContent">
-                    <!-- El contingut del markdown es carregarà aquí -->
-                </div>
+            <!-- NOU: Contenidor desplegable per markdown -->
+            <div id="markdownContainer" class="markdown-container">
+                <div id="markdownContent" class="markdown-content"></div>
             </div>
         </div>
 
-        <!-- Empty state -->
-        <div class="empty-state active" id="emptyState">
-            <div class="empty-icon">🔍</div>
-            <p>Comença escrivint el codi del torn per buscar</p>
+        <!-- Card del calendari -->
+        <div class="calendar-card">
+            <div class="calendar-header">
+                <button onclick="canviarMes(-1)" class="nav-btn">‹</button>
+                <h2 id="mesActual" class="mes-title">Carregant...</h2>
+                <button onclick="canviarMes(1)" class="nav-btn">›</button>
+            </div>
+            <div id="calendariGrid" class="calendar-grid">
+                <!-- Generat dinàmicament -->
+            </div>
         </div>
     </div>
 
-    <div class="bottom-spacer"></div>
-
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="calendari.js"></script>
 </body>
 </html>
