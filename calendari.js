@@ -113,9 +113,9 @@ async function carregarDadesJSON() {
 // ======= NOVA FUNCIÓ: CARREGAR MARKDOWN =======
 async function carregarMarkdown() {
     try {
-        const response = await fetch('mapa-presencia.md');
+        const response = await fetch('mapa_presencia.md');
         if (!response.ok) {
-            console.warn('No s\'ha pogut carregar mapa-presencia.md');
+            console.warn('No s\'ha pogut carregar mapa_presencia.md');
             return;
         }
         MARKDOWN_TEXT = await response.text();
@@ -494,4 +494,5 @@ function toggleMapaPresencia() {
 document.getElementById('current-year').textContent = new Date().getFullYear();
 
 // ======= INICIAR APLICACIÓ =======
+
 inicialitzaAplicacio();
