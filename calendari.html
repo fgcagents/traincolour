@@ -1,97 +1,86 @@
 <!DOCTYPE html>
 <html lang="ca">
 <head>
-    <!-- Google tag (gtag.js) 
-    /*<script async src="https://www.googletagmanager.com/gtag/js?id=G-6CHCYVEYTN"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-6CHCYVEYTN');
-    </script> -->
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calendari de Torns - FGC Utilitats</title>
-
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="menu.css">
+    <title>Calendari de Torns</title>
     <link rel="stylesheet" href="calendari.css">
 </head>
-<body id="index">
-    <!-- NAVBAR -->
-    <div class="navbar">
-        <a href="index.html" class="navbar-link-light">FGC utilitats</a>
-        <div class="menu-toggle" id="menu-toggle">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-        <div class="menu" id="menu">
-            <a href="index.html">Cercador Horari</a>
-            <a href="calculadora-devolucions.html">Devolucions</a>
-            <a href="isic.html">Pantalles ISIC</a>
-			<a href="calendari.html">Calendari Serveis</a>
-        </div>
-    </div>
-
-    <!-- CONTENIDOR PRINCIPAL -->
+<body>
     <div class="calendari-container">
-        <!-- HEADER -->
+        <!-- Header -->
         <div class="calendari-header">
-            <h1 class="calendari-title">📅 Calendari de Torns</h1>
+            <h1 class="calendari-title">Calendari de Torns</h1>
         </div>
 
-        <!-- SERVEI DEL DIA -->
-        <div id="serviceBadge">
-            <div class="loading-box">
-                ⏳ Carregant dades del sistema...
-            </div>
-        </div>
-
-        <!-- SELECCIÓ DE DATA -->
+        <!-- Selector de data -->
         <div class="custom-card">
-            <div class="card-title">Selecciona la data</div>
+            <label class="card-title">Selecciona una data:</label>
             <input type="date" id="dateSelector">
         </div>
 
-        <!-- CERCA AMB AUTOCOMPLETE -->
+        <!-- Badge de servei -->
+        <div class="service-badge">
+            <div class="service-label">Servei del dia</div>
+            <div class="service-value" id="serviceBadge">N/A</div>
+        </div>
+
+        <!-- Card de cerca -->
         <div class="custom-card">
-            <div class="card-title">Cerca el teu torn</div>
+            <label class="card-title">Cerca el teu torn</label>
             <div class="chat-input-wrapper">
-               <span class="chat-icon">🔍</span>
-                <input type="text" id="searchInput" placeholder="Escriu l'ID del torn (AAL1, ACFO, ...)">
+                <span class="chat-icon">🔍</span>
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    placeholder="Escriu el torn (ej: T001, T002...)"
+                    autocomplete="off"
+                >
             </div>
-            <div id="autocompleteDropdown" class="autocomplete-dropdown"></div>
+            <div class="autocomplete-dropdown" id="autocompleteDropdown"></div>
         </div>
 
-        <!-- RESULTATS -->
-        <div id="resultsContainer"></div>
+        <!-- Contenidor de resultats -->
+        <div class="results-container" id="resultsContainer" style="display: none;">
+            <div class="success-banner">✅ Horari encontrat</div>
+            <div class="results-card">
+                <table id="resultsTable">
+                    <thead>
+                        <tr>
+                            <th>Torn</th>
+                            <th>Inici</th>
+                            <th>Fi</th>
+                            <th>Línia</th>
+                            <th>Zona</th>
+                        </tr>
+                    </thead>
+                    <tbody id="resultsBody">
+                    </tbody>
+                </table>
+            </div>
 
-        <!-- EMPTY STATE -->
-        <div id="emptyState" class="empty-state active">
-            <div class="empty-icon">⏰</div>
-            <div>Calendari de Servei i horaris</div>
+            <!-- Botó Mapa de Presència -->
+            <button class="mapa-presencia-btn" id="mapaPresenciaBtn">
+                📍 Mapa de Presència
+            </button>
+
+            <!-- Contenidor desplegable del markdown -->
+            <div class="markdown-container collapsed" id="markdownContainer">
+                <div class="markdown-content" id="markdownContent">
+                    <!-- El contingut del markdown es carregarà aquí -->
+                </div>
+            </div>
         </div>
 
-        <!-- SPACER -->
-        <div class="bottom-spacer"></div>
+        <!-- Empty state -->
+        <div class="empty-state active" id="emptyState">
+            <div class="empty-icon">🔍</div>
+            <p>Comença escrivint el codi del torn per buscar</p>
+        </div>
     </div>
 
-    <!-- FOOTER -->
-    <footer>
-        J_E_O © <span id="current-year"></span>
-    </footer>
+    <div class="bottom-spacer"></div>
 
-    <!-- SCRIPTS -->
-    <script src="menu.js"></script>
     <script src="calendari.js"></script>
 </body>
 </html>
