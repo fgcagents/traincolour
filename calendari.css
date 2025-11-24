@@ -155,7 +155,9 @@
     font-family: 'Roboto', Arial, sans-serif;
     transition: all 0.3s ease;
     box-shadow: 0 2px 5px rgba(76, 175, 80, 0.3);
-    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn-mapa-presencia:hover {
