@@ -5,6 +5,8 @@ let SERVEI_DIA_ACTUAL = 'N/A';
 let SERVEI_DIA_ORIGINAL = 'N/A'; // Nou: per guardar el servei original
 let DADES_CARREGADES = false;
 let TORN_SELECCIONAT = null;
+let MARKDOWN_TEXT = ''; // Nova variable per markdown
+let MAPA_VISIBLE = false; // Nova variable per estat del mapa
 
 // ======= FUNCIONS DE PARSEIG =======
 function parseDateISO(dateStr) {
@@ -108,6 +110,20 @@ async function carregarDadesJSON() {
     }
 }
 
+// ======= NOVA FUNCIÓ: CARREGAR MARKDOWN =======
+async function carregarMarkdown() {
+    try {
+        const response = await fetch('mapa-presencia.md');
+        if (!response.ok) {
+            console.warn('No s\'ha pogut carregar mapa-presencia.md');
+            return;
+        }
+        MARKDOWN_TEXT = await response.text();
+    } catch (error) {
+        console.error('Error carregant markdown:', error);
+    }
+}
+
 function transformarDades(tornsArray, calendariArray) {
     TORNS = {};
     tornsArray.forEach(tornItem => {
@@ -160,12 +176,14 @@ function transformarDades(tornsArray, calendariArray) {
 
 // ======= INICIALITZACIÓ =======
 async function inicialitzaAplicacio() {
-    await carregarDadesJSON();
+    await Promise.all([
+        carregarDadesJSON(),
+        carregarMarkdown()
+    ]);
     
     if (DADES_CARREGADES) {
         inicialitzarUI();
     }
-    await carregarMarkdown();
 }
 
 function inicialitzarUI() {
@@ -266,6 +284,21 @@ function seleccionarTorn(tornId) {
     
     TORN_SELECCIONAT = tornId.toUpperCase();
     cercarHorari(TORN_SELECCIONAT);
+    
+    // Mostrar botó de mapa de presència
+    const btnMapa = document.getElementById('btnMapaPresencia');
+    if (btnMapa && MARKDOWN_TEXT) {
+        btnMapa.style.display = 'block';
+    }
+    
+    // Tancar mapa si estava obert
+    if (MAPA_VISIBLE) {
+        MAPA_VISIBLE = false;
+        document.getElementById('mapaPresenciaContainer').style.display = 'none';
+        if (btnMapa) {
+            btnMapa.textContent = '📍 Mapa de presència';
+        }
+    }
 }
 
 function handleClickOutside(event) {
@@ -339,7 +372,6 @@ function mostrarResultats(resultats, tornCercat) {
     emptyState.classList.remove('active');
 
     container.innerHTML = `
-
         <div class="success-banner">
           ✅ Horari trobat per ${tornCercat} • Servei: ${SERVEI_DIA_ORIGINAL.trim()}
         </div>
@@ -373,10 +405,89 @@ function mostrarResultats(resultats, tornCercat) {
 function mostrarEmptyState() {
     document.getElementById('resultsContainer').innerHTML = '';
     document.getElementById('emptyState').classList.add('active');
+    
+    // Amagar botó de mapa
+    const btnMapa = document.getElementById('btnMapaPresencia');
+    if (btnMapa) {
+        btnMapa.style.display = 'none';
+    }
+    
+    // Tancar mapa si estava obert
+    if (MAPA_VISIBLE) {
+        MAPA_VISIBLE = false;
+        document.getElementById('mapaPresenciaContainer').style.display = 'none';
+    }
 }
 
 function mostrarError(missatge) {
     document.getElementById('serviceBadge').innerHTML = `<div class="error-box">${missatge}</div>`;
+}
+
+// ======= NOVA FUNCIÓ: FILTRAR MARKDOWN PER TORN =======
+function filtrarMarkdownPerTorn(tornId) {
+    if (!MARKDOWN_TEXT || !tornId) return '';
+    
+    const lines = MARKDOWN_TEXT.split('\n');
+    let result = [];
+    let capturing = false;
+    let headerLevel = 0;
+    
+    for (let line of lines) {
+        const headerMatch = line.match(/^(#+)\s+(.*)/i);
+        
+        if (headerMatch) {
+            const level = headerMatch[1].length;
+            const headerText = headerMatch[2];
+            
+            // Cerca exacte o parcial del torn al header
+            if (headerText.toUpperCase().includes(tornId.toUpperCase())) {
+                capturing = true;
+                headerLevel = level;
+                result.push(line);
+            } else if (capturing && level <= headerLevel) {
+                // Parem quan trobem un header del mateix nivell o superior
+                break;
+            } else if (capturing) {
+                result.push(line);
+            }
+        } else if (capturing) {
+            result.push(line);
+        }
+    }
+    
+    return result.join('\n');
+}
+
+// ======= NOVA FUNCIÓ: TOGGLE MAPA DE PRESÈNCIA =======
+function toggleMapaPresencia() {
+    if (!TORN_SELECCIONAT || !MARKDOWN_TEXT) return;
+    
+    const container = document.getElementById('mapaPresenciaContainer');
+    const btn = document.getElementById('btnMapaPresencia');
+    
+    MAPA_VISIBLE = !MAPA_VISIBLE;
+    
+    if (MAPA_VISIBLE) {
+        const markdown = filtrarMarkdownPerTorn(TORN_SELECCIONAT);
+        if (markdown) {
+            const html = marked.parse(markdown);
+            document.getElementById('mapaPresenciaContent').innerHTML = html;
+            container.style.display = 'block';
+            btn.textContent = '📍 Amagar mapa';
+        } else {
+            // Si no hi ha contingut, mostrar missatge
+            document.getElementById('mapaPresenciaContent').innerHTML = `
+                <p style="color: #666; text-align: center; padding: 1rem;">
+                    No s'ha trobat informació de mapa de presència per aquest torn.
+                </p>
+            `;
+            container.style.display = 'block';
+            btn.textContent = '📍 Amagar mapa';
+        }
+    } else {
+        container.style.display = 'none';
+        btn.textContent = '📍 Mapa de presència';
+    }
 }
 
 // Funció per mostrar l'any actual al footer
@@ -384,127 +495,3 @@ document.getElementById('current-year').textContent = new Date().getFullYear();
 
 // ======= INICIAR APLICACIÓ =======
 inicialitzaAplicacio();
-
-
-
-// ======= NOU: FUNCIONALITAT MAPA DE PRESÈNCIA =======
-
-// Variable global per emmagatzemar el contingut del markdown
-let markdownText = '';
-
-/**
- * Carrega el fitxer markdown al inicialitzar l'aplicació
- */
-async function carregarMarkdown() {
-    try {
-        const response = await fetch('mapa_presencia.md');
-        if (!response.ok) {
-            throw new Error('No s'ha pogut carregar el fitxer markdown');
-        }
-        markdownText = await response.text();
-        console.log('✓ Markdown carregat correctament');
-    } catch (error) {
-        console.error('Error carregant markdown:', error);
-        markdownText = '# Error\n\nNo s'ha pogut carregar el mapa de presència.';
-    }
-}
-
-/**
- * Mostra/amaga el contenidor del mapa de presència
- */
-function toggleMapaPresencia() {
-    const container = document.getElementById('markdownContainer');
-    const btn = document.getElementById('btnMapaPresencia');
-
-    if (container.classList.contains('open')) {
-        // Tancar
-        container.classList.remove('open');
-        btn.textContent = '📍 Mapa de presència';
-    } else {
-        // Obrir i filtrar contingut
-        filtrarMarkdownPerTorn();
-        container.classList.add('open');
-        btn.textContent = '📍 Amagar mapa';
-    }
-}
-
-/**
- * Filtra el contingut del markdown segons el torn seleccionat
- */
-function filtrarMarkdownPerTorn() {
-    const contentDiv = document.getElementById('markdownContent');
-
-    if (!TORN_SELECCIONAT) {
-        contentDiv.innerHTML = '<p style="color: #ff9800;"><strong>No hi ha cap torn seleccionat.</strong></p>';
-        return;
-    }
-
-    if (!markdownText) {
-        contentDiv.innerHTML = '<p style="color: #f44336;"><strong>El fitxer markdown no s'ha carregat correctament.</strong></p>';
-        return;
-    }
-
-    // Lògica de filtratge: cerca capçaleres que continguin el torn
-    const query = TORN_SELECCIONAT.toLowerCase();
-    const lines = markdownText.split('\n');
-    let result = [];
-    let capturing = false;
-    let captureLevel = 0;
-
-    for (let line of lines) {
-        // Detectar capçalera
-        const headerMatch = line.match(/^(#+)\s+(.*)/i);
-
-        if (headerMatch) {
-            const level = headerMatch[1].length; // Nombre de #
-            const headerText = headerMatch[2];
-
-            // Comprovar si aquesta capçalera conté el torn cercat
-            if (headerText.toLowerCase().includes(query)) {
-                capturing = true;
-                captureLevel = level;
-                result.push(line);
-            } else if (capturing && level <= captureLevel) {
-                // Hem arribat a una capçalera del mateix nivell o superior: parar
-                capturing = false;
-            } else if (capturing) {
-                // Subcapçalera dins la secció: continuar capturant
-                result.push(line);
-            }
-        } else if (capturing) {
-            // Contingut de la secció
-            result.push(line);
-        }
-    }
-
-    // Processar markdown i mostrar
-    if (result.length === 0) {
-        contentDiv.innerHTML = `
-            <p style="color: #ff9800;">
-                <strong>No s'ha trobat informació per al torn "${TORN_SELECCIONAT}"</strong><br>
-                <small>Comprova que el fitxer markdown tingui una secció amb aquest nom.</small>
-            </p>
-        `;
-    } else {
-        const markdownFiltered = result.join('\n');
-        const html = marked.parse(markdownFiltered);
-        contentDiv.innerHTML = html;
-    }
-}
-
-/**
- * Mostra/amaga el botó de mapa segons si hi ha torn seleccionat
- */
-function actualitzarBotoMapa() {
-    const btn = document.getElementById('btnMapaPresencia');
-    if (TORN_SELECCIONAT) {
-        btn.style.display = 'block';
-    } else {
-        btn.style.display = 'none';
-        // Tancar el desplegable si estava obert
-        const container = document.getElementById('markdownContainer');
-        if (container.classList.contains('open')) {
-            container.classList.remove('open');
-        }
-    }
-}
