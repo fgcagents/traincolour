@@ -254,7 +254,7 @@ function mostrarAutocomplete(query = '') {
     const dropdown = document.getElementById('autocompleteDropdown');
     
     if (!query || !DADES_CARREGADES) {
-        dropdown.style.display = 'none';
+        dropdown.style.display = 'block';
         return;
     }
 
@@ -496,3 +496,4 @@ document.getElementById('current-year').textContent = new Date().getFullYear();
 // ======= INICIAR APLICACIÓ =======
 
 inicialitzaAplicacio();
+
