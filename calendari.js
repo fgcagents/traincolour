@@ -254,7 +254,7 @@ function mostrarAutocomplete(query = '') {
     const dropdown = document.getElementById('autocompleteDropdown');
     
     if (!query || !DADES_CARREGADES) {
-        dropdown.style.display = 'block';
+        dropdown.style.display = 'none';
         return;
     }
 
@@ -409,7 +409,7 @@ function mostrarEmptyState() {
     // Amagar botó de mapa
     const btnMapa = document.getElementById('btnMapaPresencia');
     if (btnMapa) {
-        btnMapa.style.display = 'none';
+        btnMapa.style.display = 'block';
     }
     
     // Tancar mapa si estava obert
@@ -496,4 +496,5 @@ document.getElementById('current-year').textContent = new Date().getFullYear();
 // ======= INICIAR APLICACIÓ =======
 
 inicialitzaAplicacio();
+
 
