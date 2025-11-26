@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <!-- Google tag (gtag.js) 
+    /*<script async src="https://www.googletagmanager.com/gtag/js?id=G-6CHCYVEYTN"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-6CHCYVEYTN');
+    </script> -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendari de Torns - FGC Utilitats</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="calendari.css">
+</head>
+<body id="index">
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <a href="index.html" class="navbar-link-light">FGC utilitats</a>
+        <div class="menu-toggle" id="menu-toggle">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="menu" id="menu">
+            <a href="index.html">Cercador Horari</a>
+            <a href="calculadora-devolucions.html">Devolucions</a>
+            <a href="isic.html">Pantalles ISIC</a>
+			<a href="calendari.html">Calendari Serveis</a>
+        </div>
+    </div>
+
+    <!-- CONTENIDOR PRINCIPAL -->
+    <div class="calendari-container">
+        <!-- HEADER -->
+        <div class="calendari-header">
+            <h1 class="calendari-title">📅 Calendari de Torns</h1>
+        </div>
+
+        <!-- SERVEI DEL DIA -->
+        <div id="serviceBadge">
+            <div class="loading-box">
+                ⏳ Carregant dades del sistema...
+            </div>
+        </div>
+
+        <!-- SELECCIÓ DE DATA -->
+        <div class="custom-card">
+            <div class="card-title">Selecciona la data</div>
+            <input type="date" id="dateSelector">
+        </div>
+
+        <!-- CERCA AMB AUTOCOMPLETE -->
+        <div class="custom-card">
+            <div class="card-title">Cerca el teu torn</div>
+            <div class="chat-input-wrapper">
+               <span class="chat-icon">🔍</span>
+                <input type="text" id="searchInput" placeholder="Escriu l'ID del torn (AAL1, ACFO, ...)">
+            </div>
+            <div id="autocompleteDropdown" class="autocomplete-dropdown"></div>
+            
+            <!-- BOTÓ MAPA DE PRESÈNCIA -->
+            <button id="btnMapaPresencia" class="btn-mapa-presencia" onclick="toggleMapaPresencia()">
+                📍 Mapa de presència
+            </button>
+        </div>
+
+        <!-- CONTENIDOR MAPA DE PRESÈNCIA -->
+        <div id="mapaPresenciaContainer" class="mapa-presencia-container">
+            <div id="mapaPresenciaContent" class="mapa-presencia-content"></div>
+        </div>
+
+        <!-- RESULTATS -->
+        <div id="resultsContainer"></div>
+
+        <!-- EMPTY STATE -->
+        <div id="emptyState" class="empty-state active">
+            <div class="empty-icon">⏰</div>
+            <div>Calendari de Servei i horaris</div>
+        </div>
+
+        <!-- SPACER -->
+        <div class="bottom-spacer"></div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        J_E_O © <span id="current-year"></span>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="menu.js"></script>
+    <script src="calendari.js"></script>
+</body>
+</html>

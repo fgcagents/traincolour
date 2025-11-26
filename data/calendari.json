@@ -1,0 +1,2557 @@
+[
+  {
+    "Data": "01/01/2025",
+    "Servei BV": 504,
+    "Dia_Set": "Dx",
+    "Dia_Mes": "1 Gener",
+    "Dia_Num": "D001"
+  },
+  {
+    "Data": "02/01/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "2 Gener",
+    "Dia_Num": "D002"
+  },
+  {
+    "Data": "03/01/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "3 Gener",
+    "Dia_Num": "D003"
+  },
+  {
+    "Data": "04/01/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "4 Gener",
+    "Dia_Num": "D004"
+  },
+  {
+    "Data": "05/01/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "5 Gener",
+    "Dia_Num": "D005"
+  },
+  {
+    "Data": "06/01/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dl",
+    "Dia_Mes": "6 Gener",
+    "Dia_Num": "D006"
+  },
+  {
+    "Data": "07/01/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "7 Gener",
+    "Dia_Num": "D007"
+  },
+  {
+    "Data": "08/01/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "8 Gener",
+    "Dia_Num": "D008"
+  },
+  {
+    "Data": "09/01/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "9 Gener",
+    "Dia_Num": "D009"
+  },
+  {
+    "Data": "10/01/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "10 Gener",
+    "Dia_Num": "D010"
+  },
+  {
+    "Data": "11/01/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "11 Gener",
+    "Dia_Num": "D011"
+  },
+  {
+    "Data": "12/01/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "12 Gener",
+    "Dia_Num": "D012"
+  },
+  {
+    "Data": "13/01/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "13 Gener",
+    "Dia_Num": "D013"
+  },
+  {
+    "Data": "14/01/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "14 Gener",
+    "Dia_Num": "D014"
+  },
+  {
+    "Data": "15/01/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "15 Gener",
+    "Dia_Num": "D015"
+  },
+  {
+    "Data": "16/01/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "16 Gener",
+    "Dia_Num": "D016"
+  },
+  {
+    "Data": "17/01/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "17 Gener",
+    "Dia_Num": "D017"
+  },
+  {
+    "Data": "18/01/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "18 Gener",
+    "Dia_Num": "D018"
+  },
+  {
+    "Data": "19/01/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "19 Gener",
+    "Dia_Num": "D019"
+  },
+  {
+    "Data": "20/01/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "20 Gener",
+    "Dia_Num": "D020"
+  },
+  {
+    "Data": "21/01/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "21 Gener",
+    "Dia_Num": "D021"
+  },
+  {
+    "Data": "22/01/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "22 Gener",
+    "Dia_Num": "D022"
+  },
+  {
+    "Data": "23/01/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "23 Gener",
+    "Dia_Num": "D023"
+  },
+  {
+    "Data": "24/01/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "24 Gener",
+    "Dia_Num": "D024"
+  },
+  {
+    "Data": "25/01/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "25 Gener",
+    "Dia_Num": "D025"
+  },
+  {
+    "Data": "26/01/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "26 Gener",
+    "Dia_Num": "D026"
+  },
+  {
+    "Data": "27/01/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "27 Gener",
+    "Dia_Num": "D027"
+  },
+  {
+    "Data": "28/01/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "28 Gener",
+    "Dia_Num": "D028"
+  },
+  {
+    "Data": "29/01/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "29 Gener",
+    "Dia_Num": "D029"
+  },
+  {
+    "Data": "30/01/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "30 Gener",
+    "Dia_Num": "D030"
+  },
+  {
+    "Data": "31/01/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "31 Gener",
+    "Dia_Num": "D031"
+  },
+  {
+    "Data": "01/02/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "1 Febrer",
+    "Dia_Num": "D032"
+  },
+  {
+    "Data": "02/02/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "2 Febrer",
+    "Dia_Num": "D033"
+  },
+  {
+    "Data": "03/02/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "3 Febrer",
+    "Dia_Num": "D034"
+  },
+  {
+    "Data": "04/02/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "4 Febrer",
+    "Dia_Num": "D035"
+  },
+  {
+    "Data": "05/02/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "5 Febrer",
+    "Dia_Num": "D036"
+  },
+  {
+    "Data": "06/02/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "6 Febrer",
+    "Dia_Num": "D037"
+  },
+  {
+    "Data": "07/02/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "7 Febrer",
+    "Dia_Num": "D038"
+  },
+  {
+    "Data": "08/02/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "8 Febrer",
+    "Dia_Num": "D039"
+  },
+  {
+    "Data": "09/02/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "9 Febrer",
+    "Dia_Num": "D040"
+  },
+  {
+    "Data": "10/02/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "10 Febrer",
+    "Dia_Num": "D041"
+  },
+  {
+    "Data": "11/02/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "11 Febrer",
+    "Dia_Num": "D042"
+  },
+  {
+    "Data": "12/02/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "12 Febrer",
+    "Dia_Num": "D043"
+  },
+  {
+    "Data": "13/02/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "13 Febrer",
+    "Dia_Num": "D044"
+  },
+  {
+    "Data": "14/02/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "14 Febrer",
+    "Dia_Num": "D045"
+  },
+  {
+    "Data": "15/02/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "15 Febrer",
+    "Dia_Num": "D046"
+  },
+  {
+    "Data": "16/02/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "16 Febrer",
+    "Dia_Num": "D047"
+  },
+  {
+    "Data": "17/02/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "17 Febrer",
+    "Dia_Num": "D048"
+  },
+  {
+    "Data": "18/02/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "18 Febrer",
+    "Dia_Num": "D049"
+  },
+  {
+    "Data": "19/02/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "19 Febrer",
+    "Dia_Num": "D050"
+  },
+  {
+    "Data": "20/02/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "20 Febrer",
+    "Dia_Num": "D051"
+  },
+  {
+    "Data": "21/02/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "21 Febrer",
+    "Dia_Num": "D052"
+  },
+  {
+    "Data": "22/02/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "22 Febrer",
+    "Dia_Num": "D053"
+  },
+  {
+    "Data": "23/02/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "23 Febrer",
+    "Dia_Num": "D054"
+  },
+  {
+    "Data": "24/02/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "24 Febrer",
+    "Dia_Num": "D055"
+  },
+  {
+    "Data": "25/02/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "25 Febrer",
+    "Dia_Num": "D056"
+  },
+  {
+    "Data": "26/02/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "26 Febrer",
+    "Dia_Num": "D057"
+  },
+  {
+    "Data": "27/02/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "27 Febrer",
+    "Dia_Num": "D058"
+  },
+  {
+    "Data": "28/02/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "28 Febrer",
+    "Dia_Num": "D059"
+  },
+  {
+    "Data": "01/03/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "1 Març",
+    "Dia_Num": "D060"
+  },
+  {
+    "Data": "02/03/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "2 Març",
+    "Dia_Num": "D061"
+  },
+  {
+    "Data": "03/03/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "3 Març",
+    "Dia_Num": "D062"
+  },
+  {
+    "Data": "04/03/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "4 Març",
+    "Dia_Num": "D063"
+  },
+  {
+    "Data": "05/03/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "5 Març",
+    "Dia_Num": "D064"
+  },
+  {
+    "Data": "06/03/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "6 Març",
+    "Dia_Num": "D065"
+  },
+  {
+    "Data": "07/03/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "7 Març",
+    "Dia_Num": "D066"
+  },
+  {
+    "Data": "08/03/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "8 Març",
+    "Dia_Num": "D067"
+  },
+  {
+    "Data": "09/03/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "9 Març",
+    "Dia_Num": "D068"
+  },
+  {
+    "Data": "10/03/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "10 Març",
+    "Dia_Num": "D069"
+  },
+  {
+    "Data": "11/03/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "11 Març",
+    "Dia_Num": "D070"
+  },
+  {
+    "Data": "12/03/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "12 Març",
+    "Dia_Num": "D071"
+  },
+  {
+    "Data": "13/03/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "13 Març",
+    "Dia_Num": "D072"
+  },
+  {
+    "Data": "14/03/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "14 Març",
+    "Dia_Num": "D073"
+  },
+  {
+    "Data": "15/03/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "15 Març",
+    "Dia_Num": "D074"
+  },
+  {
+    "Data": "16/03/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "16 Març",
+    "Dia_Num": "D075"
+  },
+  {
+    "Data": "17/03/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "17 Març",
+    "Dia_Num": "D076"
+  },
+  {
+    "Data": "18/03/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "18 Març",
+    "Dia_Num": "D077"
+  },
+  {
+    "Data": "19/03/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "19 Març",
+    "Dia_Num": "D078"
+  },
+  {
+    "Data": "20/03/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "20 Març",
+    "Dia_Num": "D079"
+  },
+  {
+    "Data": "21/03/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "21 Març",
+    "Dia_Num": "D080"
+  },
+  {
+    "Data": "22/03/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "22 Març",
+    "Dia_Num": "D081"
+  },
+  {
+    "Data": "23/03/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "23 Març",
+    "Dia_Num": "D082"
+  },
+  {
+    "Data": "24/03/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "24 Març",
+    "Dia_Num": "D083"
+  },
+  {
+    "Data": "25/03/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "25 Març",
+    "Dia_Num": "D084"
+  },
+  {
+    "Data": "26/03/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "26 Març",
+    "Dia_Num": "D085"
+  },
+  {
+    "Data": "27/03/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "27 Març",
+    "Dia_Num": "D086"
+  },
+  {
+    "Data": "28/03/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "28 Març",
+    "Dia_Num": "D087"
+  },
+  {
+    "Data": "29/03/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "29 Març",
+    "Dia_Num": "D088"
+  },
+  {
+    "Data": "30/03/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "30 Març",
+    "Dia_Num": "D089"
+  },
+  {
+    "Data": "31/03/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "31 Març",
+    "Dia_Num": "D090"
+  },
+  {
+    "Data": "01/04/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "1 Abril",
+    "Dia_Num": "D091"
+  },
+  {
+    "Data": "02/04/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "2 Abril",
+    "Dia_Num": "D092"
+  },
+  {
+    "Data": "03/04/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "3 Abril",
+    "Dia_Num": "D093"
+  },
+  {
+    "Data": "04/04/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "4 Abril",
+    "Dia_Num": "D094"
+  },
+  {
+    "Data": "05/04/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "5 Abril",
+    "Dia_Num": "D095"
+  },
+  {
+    "Data": "06/04/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "6 Abril",
+    "Dia_Num": "D096"
+  },
+  {
+    "Data": "07/04/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "7 Abril",
+    "Dia_Num": "D097"
+  },
+  {
+    "Data": "08/04/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "8 Abril",
+    "Dia_Num": "D098"
+  },
+  {
+    "Data": "09/04/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "9 Abril",
+    "Dia_Num": "D099"
+  },
+  {
+    "Data": "10/04/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "10 Abril",
+    "Dia_Num": "D100"
+  },
+  {
+    "Data": "11/04/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "11 Abril",
+    "Dia_Num": "D101"
+  },
+  {
+    "Data": "12/04/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "12 Abril",
+    "Dia_Num": "D102"
+  },
+  {
+    "Data": "13/04/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "13 Abril",
+    "Dia_Num": "D103"
+  },
+  {
+    "Data": "14/04/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "14 Abril",
+    "Dia_Num": "D104"
+  },
+  {
+    "Data": "15/04/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "15 Abril",
+    "Dia_Num": "D105"
+  },
+  {
+    "Data": "16/04/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "16 Abril",
+    "Dia_Num": "D106"
+  },
+  {
+    "Data": "17/04/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dj",
+    "Dia_Mes": "17 Abril",
+    "Dia_Num": "D107"
+  },
+  {
+    "Data": "18/04/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "18 Abril",
+    "Dia_Num": "D108"
+  },
+  {
+    "Data": "19/04/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "19 Abril",
+    "Dia_Num": "D109"
+  },
+  {
+    "Data": "20/04/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "20 Abril",
+    "Dia_Num": "D110"
+  },
+  {
+    "Data": "21/04/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dl",
+    "Dia_Mes": "21 Abril",
+    "Dia_Num": "D111"
+  },
+  {
+    "Data": "22/04/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "22 Abril",
+    "Dia_Num": "D112"
+  },
+  {
+    "Data": "23/04/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "23 Abril",
+    "Dia_Num": "D113"
+  },
+  {
+    "Data": "24/04/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "24 Abril",
+    "Dia_Num": "D114"
+  },
+  {
+    "Data": "25/04/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "25 Abril",
+    "Dia_Num": "D115"
+  },
+  {
+    "Data": "26/04/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "26 Abril",
+    "Dia_Num": "D116"
+  },
+  {
+    "Data": "27/04/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "27 Abril",
+    "Dia_Num": "D117"
+  },
+  {
+    "Data": "28/04/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "28 Abril",
+    "Dia_Num": "D118"
+  },
+  {
+    "Data": "29/04/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "29 Abril",
+    "Dia_Num": "D119"
+  },
+  {
+    "Data": "30/04/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dx",
+    "Dia_Mes": "30 Abril",
+    "Dia_Num": "D120"
+  },
+  {
+    "Data": "01/05/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dj",
+    "Dia_Mes": "1 Maig",
+    "Dia_Num": "D121"
+  },
+  {
+    "Data": "02/05/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "2 Maig",
+    "Dia_Num": "D122"
+  },
+  {
+    "Data": "03/05/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "3 Maig",
+    "Dia_Num": "D123"
+  },
+  {
+    "Data": "04/05/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "4 Maig",
+    "Dia_Num": "D124"
+  },
+  {
+    "Data": "05/05/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "5 Maig",
+    "Dia_Num": "D125"
+  },
+  {
+    "Data": "06/05/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "6 Maig",
+    "Dia_Num": "D126"
+  },
+  {
+    "Data": "07/05/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "7 Maig",
+    "Dia_Num": "D127"
+  },
+  {
+    "Data": "08/05/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "8 Maig",
+    "Dia_Num": "D128"
+  },
+  {
+    "Data": "09/05/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "9 Maig",
+    "Dia_Num": "D129"
+  },
+  {
+    "Data": "10/05/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "10 Maig",
+    "Dia_Num": "D130"
+  },
+  {
+    "Data": "11/05/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "11 Maig",
+    "Dia_Num": "D131"
+  },
+  {
+    "Data": "12/05/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "12 Maig",
+    "Dia_Num": "D132"
+  },
+  {
+    "Data": "13/05/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "13 Maig",
+    "Dia_Num": "D133"
+  },
+  {
+    "Data": "14/05/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "14 Maig",
+    "Dia_Num": "D134"
+  },
+  {
+    "Data": "15/05/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "15 Maig",
+    "Dia_Num": "D135"
+  },
+  {
+    "Data": "16/05/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "16 Maig",
+    "Dia_Num": "D136"
+  },
+  {
+    "Data": "17/05/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "17 Maig",
+    "Dia_Num": "D137"
+  },
+  {
+    "Data": "18/05/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "18 Maig",
+    "Dia_Num": "D138"
+  },
+  {
+    "Data": "19/05/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "19 Maig",
+    "Dia_Num": "D139"
+  },
+  {
+    "Data": "20/05/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "20 Maig",
+    "Dia_Num": "D140"
+  },
+  {
+    "Data": "21/05/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "21 Maig",
+    "Dia_Num": "D141"
+  },
+  {
+    "Data": "22/05/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "22 Maig",
+    "Dia_Num": "D142"
+  },
+  {
+    "Data": "23/05/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "23 Maig",
+    "Dia_Num": "D143"
+  },
+  {
+    "Data": "24/05/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "24 Maig",
+    "Dia_Num": "D144"
+  },
+  {
+    "Data": "25/05/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "25 Maig",
+    "Dia_Num": "D145"
+  },
+  {
+    "Data": "26/05/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "26 Maig",
+    "Dia_Num": "D146"
+  },
+  {
+    "Data": "27/05/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "27 Maig",
+    "Dia_Num": "D147"
+  },
+  {
+    "Data": "28/05/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "28 Maig",
+    "Dia_Num": "D148"
+  },
+  {
+    "Data": "29/05/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "29 Maig",
+    "Dia_Num": "D149"
+  },
+  {
+    "Data": "30/05/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "30 Maig",
+    "Dia_Num": "D150"
+  },
+  {
+    "Data": "31/05/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "31 Maig",
+    "Dia_Num": "D151"
+  },
+  {
+    "Data": "01/06/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "1 Juny",
+    "Dia_Num": "D152"
+  },
+  {
+    "Data": "02/06/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "2 Juny",
+    "Dia_Num": "D153"
+  },
+  {
+    "Data": "03/06/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "3 Juny",
+    "Dia_Num": "D154"
+  },
+  {
+    "Data": "04/06/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "4 Juny",
+    "Dia_Num": "D155"
+  },
+  {
+    "Data": "05/06/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "5 Juny",
+    "Dia_Num": "D156"
+  },
+  {
+    "Data": "06/06/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "6 Juny",
+    "Dia_Num": "D157"
+  },
+  {
+    "Data": "07/06/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "7 Juny",
+    "Dia_Num": "D158"
+  },
+  {
+    "Data": "08/06/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "8 Juny",
+    "Dia_Num": "D159"
+  },
+  {
+    "Data": "09/06/2025",
+    "Servei BV": 200,
+    "Dia_Set": "Dl",
+    "Dia_Mes": "9 Juny",
+    "Dia_Num": "D160"
+  },
+  {
+    "Data": "10/06/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "10 Juny",
+    "Dia_Num": "D161"
+  },
+  {
+    "Data": "11/06/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "11 Juny",
+    "Dia_Num": "D162"
+  },
+  {
+    "Data": "12/06/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "12 Juny",
+    "Dia_Num": "D163"
+  },
+  {
+    "Data": "13/06/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "13 Juny",
+    "Dia_Num": "D164"
+  },
+  {
+    "Data": "14/06/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "14 Juny",
+    "Dia_Num": "D165"
+  },
+  {
+    "Data": "15/06/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "15 Juny",
+    "Dia_Num": "D166"
+  },
+  {
+    "Data": "16/06/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "16 Juny",
+    "Dia_Num": "D167"
+  },
+  {
+    "Data": "17/06/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "17 Juny",
+    "Dia_Num": "D168"
+  },
+  {
+    "Data": "18/06/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "18 Juny",
+    "Dia_Num": "D169"
+  },
+  {
+    "Data": "19/06/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "19 Juny",
+    "Dia_Num": "D170"
+  },
+  {
+    "Data": "20/06/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "20 Juny",
+    "Dia_Num": "D171"
+  },
+  {
+    "Data": "21/06/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "21 Juny",
+    "Dia_Num": "D172"
+  },
+  {
+    "Data": "22/06/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "22 Juny",
+    "Dia_Num": "D173"
+  },
+  {
+    "Data": "23/06/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dl",
+    "Dia_Mes": "23 Juny",
+    "Dia_Num": "D174"
+  },
+  {
+    "Data": "24/06/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dm",
+    "Dia_Mes": "24 Juny",
+    "Dia_Num": "D175"
+  },
+  {
+    "Data": "25/06/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "25 Juny",
+    "Dia_Num": "D176"
+  },
+  {
+    "Data": "26/06/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "26 Juny",
+    "Dia_Num": "D177"
+  },
+  {
+    "Data": "27/06/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "27 Juny",
+    "Dia_Num": "D178"
+  },
+  {
+    "Data": "28/06/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "28 Juny",
+    "Dia_Num": "D179"
+  },
+  {
+    "Data": "29/06/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "29 Juny",
+    "Dia_Num": "D180"
+  },
+  {
+    "Data": "30/06/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "30 Juny",
+    "Dia_Num": "D181"
+  },
+  {
+    "Data": "01/07/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "1 Juliol",
+    "Dia_Num": "D182"
+  },
+  {
+    "Data": "02/07/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "2 Juliol",
+    "Dia_Num": "D183"
+  },
+  {
+    "Data": "03/07/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "3 Juliol",
+    "Dia_Num": "D184"
+  },
+  {
+    "Data": "04/07/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "4 Juliol",
+    "Dia_Num": "D185"
+  },
+  {
+    "Data": "05/07/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "5 Juliol",
+    "Dia_Num": "D186"
+  },
+  {
+    "Data": "06/07/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "6 Juliol",
+    "Dia_Num": "D187"
+  },
+  {
+    "Data": "07/07/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "7 Juliol",
+    "Dia_Num": "D188"
+  },
+  {
+    "Data": "08/07/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "8 Juliol",
+    "Dia_Num": "D189"
+  },
+  {
+    "Data": "09/07/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "9 Juliol",
+    "Dia_Num": "D190"
+  },
+  {
+    "Data": "10/07/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "10 Juliol",
+    "Dia_Num": "D191"
+  },
+  {
+    "Data": "11/07/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "11 Juliol",
+    "Dia_Num": "D192"
+  },
+  {
+    "Data": "12/07/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "12 Juliol",
+    "Dia_Num": "D193"
+  },
+  {
+    "Data": "13/07/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "13 Juliol",
+    "Dia_Num": "D194"
+  },
+  {
+    "Data": "14/07/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "14 Juliol",
+    "Dia_Num": "D195"
+  },
+  {
+    "Data": "15/07/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "15 Juliol",
+    "Dia_Num": "D196"
+  },
+  {
+    "Data": "16/07/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "16 Juliol",
+    "Dia_Num": "D197"
+  },
+  {
+    "Data": "17/07/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "17 Juliol",
+    "Dia_Num": "D198"
+  },
+  {
+    "Data": "18/07/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "18 Juliol",
+    "Dia_Num": "D199"
+  },
+  {
+    "Data": "19/07/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "19 Juliol",
+    "Dia_Num": "D200"
+  },
+  {
+    "Data": "20/07/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "20 Juliol",
+    "Dia_Num": "D201"
+  },
+  {
+    "Data": "21/07/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "21 Juliol",
+    "Dia_Num": "D202"
+  },
+  {
+    "Data": "22/07/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "22 Juliol",
+    "Dia_Num": "D203"
+  },
+  {
+    "Data": "23/07/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "23 Juliol",
+    "Dia_Num": "D204"
+  },
+  {
+    "Data": "24/07/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "24 Juliol",
+    "Dia_Num": "D205"
+  },
+  {
+    "Data": "25/07/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "25 Juliol",
+    "Dia_Num": "D206"
+  },
+  {
+    "Data": "26/07/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "26 Juliol",
+    "Dia_Num": "D207"
+  },
+  {
+    "Data": "27/07/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "27 Juliol",
+    "Dia_Num": "D208"
+  },
+  {
+    "Data": "28/07/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "28 Juliol",
+    "Dia_Num": "D209"
+  },
+  {
+    "Data": "29/07/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "29 Juliol",
+    "Dia_Num": "D210"
+  },
+  {
+    "Data": "30/07/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "30 Juliol",
+    "Dia_Num": "D211"
+  },
+  {
+    "Data": "31/07/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "31 Juliol",
+    "Dia_Num": "D212"
+  },
+  {
+    "Data": "01/08/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "1 Agost",
+    "Dia_Num": "D213"
+  },
+  {
+    "Data": "02/08/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "2 Agost",
+    "Dia_Num": "D214"
+  },
+  {
+    "Data": "03/08/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "3 Agost",
+    "Dia_Num": "D215"
+  },
+  {
+    "Data": "04/08/2025",
+    "Servei BV": 800,
+    "Dia_Set": "Dl",
+    "Dia_Mes": "4 Agost",
+    "Dia_Num": "D216"
+  },
+  {
+    "Data": "05/08/2025",
+    "Servei BV": 800,
+    "Dia_Set": "Dm",
+    "Dia_Mes": "5 Agost",
+    "Dia_Num": "D217"
+  },
+  {
+    "Data": "06/08/2025",
+    "Servei BV": 800,
+    "Dia_Set": "Dx",
+    "Dia_Mes": "6 Agost",
+    "Dia_Num": "D218"
+  },
+  {
+    "Data": "07/08/2025",
+    "Servei BV": 800,
+    "Dia_Set": "Dj",
+    "Dia_Mes": "7 Agost",
+    "Dia_Num": "D219"
+  },
+  {
+    "Data": "08/08/2025",
+    "Servei BV": 900,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "8 Agost",
+    "Dia_Num": "D220"
+  },
+  {
+    "Data": "09/08/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "9 Agost",
+    "Dia_Num": "D221"
+  },
+  {
+    "Data": "10/08/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "10 Agost",
+    "Dia_Num": "D222"
+  },
+  {
+    "Data": "11/08/2025",
+    "Servei BV": 200,
+    "Dia_Set": "Dl",
+    "Dia_Mes": "11 Agost",
+    "Dia_Num": "D223"
+  },
+  {
+    "Data": "12/08/2025",
+    "Servei BV": 200,
+    "Dia_Set": "Dm",
+    "Dia_Mes": "12 Agost",
+    "Dia_Num": "D224"
+  },
+  {
+    "Data": "13/08/2025",
+    "Servei BV": 200,
+    "Dia_Set": "Dx",
+    "Dia_Mes": "13 Agost",
+    "Dia_Num": "D225"
+  },
+  {
+    "Data": "14/08/2025",
+    "Servei BV": 300,
+    "Dia_Set": "Dj",
+    "Dia_Mes": "14 Agost",
+    "Dia_Num": "D226"
+  },
+  {
+    "Data": "15/08/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "15 Agost",
+    "Dia_Num": "D227"
+  },
+  {
+    "Data": "16/08/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "16 Agost",
+    "Dia_Num": "D228"
+  },
+  {
+    "Data": "17/08/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "17 Agost",
+    "Dia_Num": "D229"
+  },
+  {
+    "Data": "18/08/2025",
+    "Servei BV": 200,
+    "Dia_Set": "Dl",
+    "Dia_Mes": "18 Agost",
+    "Dia_Num": "D230"
+  },
+  {
+    "Data": "19/08/2025",
+    "Servei BV": 200,
+    "Dia_Set": "Dm",
+    "Dia_Mes": "19 Agost",
+    "Dia_Num": "D231"
+  },
+  {
+    "Data": "20/08/2025",
+    "Servei BV": 200,
+    "Dia_Set": "Dx",
+    "Dia_Mes": "20 Agost",
+    "Dia_Num": "D232"
+  },
+  {
+    "Data": "21/08/2025",
+    "Servei BV": 200,
+    "Dia_Set": "Dj",
+    "Dia_Mes": "21 Agost",
+    "Dia_Num": "D233"
+  },
+  {
+    "Data": "22/08/2025",
+    "Servei BV": 300,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "22 Agost",
+    "Dia_Num": "D234"
+  },
+  {
+    "Data": "23/08/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "23 Agost",
+    "Dia_Num": "D235"
+  },
+  {
+    "Data": "24/08/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "24 Agost",
+    "Dia_Num": "D236"
+  },
+  {
+    "Data": "25/08/2025",
+    "Servei BV": 800,
+    "Dia_Set": "Dl",
+    "Dia_Mes": "25 Agost",
+    "Dia_Num": "D237"
+  },
+  {
+    "Data": "26/08/2025",
+    "Servei BV": 800,
+    "Dia_Set": "Dm",
+    "Dia_Mes": "26 Agost",
+    "Dia_Num": "D238"
+  },
+  {
+    "Data": "27/08/2025",
+    "Servei BV": 800,
+    "Dia_Set": "Dx",
+    "Dia_Mes": "27 Agost",
+    "Dia_Num": "D239"
+  },
+  {
+    "Data": "28/08/2025",
+    "Servei BV": 800,
+    "Dia_Set": "Dj",
+    "Dia_Mes": "28 Agost",
+    "Dia_Num": "D240"
+  },
+  {
+    "Data": "29/08/2025",
+    "Servei BV": 900,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "29 Agost",
+    "Dia_Num": "D241"
+  },
+  {
+    "Data": "30/08/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "30 Agost",
+    "Dia_Num": "D242"
+  },
+  {
+    "Data": "31/08/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "31 Agost",
+    "Dia_Num": "D243"
+  },
+  {
+    "Data": "01/09/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "1 Sept",
+    "Dia_Num": "D244"
+  },
+  {
+    "Data": "02/09/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "2 Sept",
+    "Dia_Num": "D245"
+  },
+  {
+    "Data": "03/09/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "3 Sept",
+    "Dia_Num": "D246"
+  },
+  {
+    "Data": "04/09/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "4 Sept",
+    "Dia_Num": "D247"
+  },
+  {
+    "Data": "05/09/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "5 Sept",
+    "Dia_Num": "D248"
+  },
+  {
+    "Data": "06/09/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "6 Sept",
+    "Dia_Num": "D249"
+  },
+  {
+    "Data": "07/09/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "7 Sept",
+    "Dia_Num": "D250"
+  },
+  {
+    "Data": "08/09/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "8 Sept",
+    "Dia_Num": "D251"
+  },
+  {
+    "Data": "09/09/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "9 Sept",
+    "Dia_Num": "D252"
+  },
+  {
+    "Data": "10/09/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dx",
+    "Dia_Mes": "10 Sept",
+    "Dia_Num": "D253"
+  },
+  {
+    "Data": "11/09/2025",
+    "Servei BV": 607,
+    "Dia_Set": "Dj",
+    "Dia_Mes": "11 Sept",
+    "Dia_Num": "D254"
+  },
+  {
+    "Data": "12/09/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "12 Sept",
+    "Dia_Num": "D255"
+  },
+  {
+    "Data": "13/09/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "13 Sept",
+    "Dia_Num": "D256"
+  },
+  {
+    "Data": "14/09/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "14 Sept",
+    "Dia_Num": "D257"
+  },
+  {
+    "Data": "15/09/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "15 Sept",
+    "Dia_Num": "D258"
+  },
+  {
+    "Data": "16/09/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "16 Sept",
+    "Dia_Num": "D259"
+  },
+  {
+    "Data": "17/09/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "17 Sept",
+    "Dia_Num": "D260"
+  },
+  {
+    "Data": "18/09/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "18 Sept",
+    "Dia_Num": "D261"
+  },
+  {
+    "Data": "19/09/2025",
+    "Servei BV": 101,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "19 Sept",
+    "Dia_Num": "D262"
+  },
+  {
+    "Data": "20/09/2025",
+    "Servei BV": 405,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "20 Sept",
+    "Dia_Num": "D263"
+  },
+  {
+    "Data": "21/09/2025",
+    "Servei BV": 503,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "21 Sept",
+    "Dia_Num": "D264"
+  },
+  {
+    "Data": "22/09/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "22 Sept",
+    "Dia_Num": "D265"
+  },
+  {
+    "Data": "23/09/2025",
+    "Servei BV": 101,
+    "Dia_Set": "Dm",
+    "Dia_Mes": "23 Sept",
+    "Dia_Num": "D266"
+  },
+  {
+    "Data": "24/09/2025",
+    "Servei BV": 203,
+    "Dia_Set": "Dx",
+    "Dia_Mes": "24 Sept",
+    "Dia_Num": "D267"
+  },
+  {
+    "Data": "25/09/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "25 Sept",
+    "Dia_Num": "D268"
+  },
+  {
+    "Data": "26/09/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "26 Sept",
+    "Dia_Num": "D269"
+  },
+  {
+    "Data": "27/09/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "27 Sept",
+    "Dia_Num": "D270"
+  },
+  {
+    "Data": "28/09/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "28 Sept",
+    "Dia_Num": "D271"
+  },
+  {
+    "Data": "29/09/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "29 Sept",
+    "Dia_Num": "D272"
+  },
+  {
+    "Data": "30/09/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "30 Sept",
+    "Dia_Num": "D273"
+  },
+  {
+    "Data": "01/10/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "1 Oct",
+    "Dia_Num": "D274"
+  },
+  {
+    "Data": "02/10/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "2 Oct",
+    "Dia_Num": "D275"
+  },
+  {
+    "Data": "03/10/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "3 Oct",
+    "Dia_Num": "D276"
+  },
+  {
+    "Data": "04/10/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "4 Oct",
+    "Dia_Num": "D277"
+  },
+  {
+    "Data": "05/10/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "5 Oct",
+    "Dia_Num": "D278"
+  },
+  {
+    "Data": "06/10/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "6 Oct",
+    "Dia_Num": "D279"
+  },
+  {
+    "Data": "07/10/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "7 Oct",
+    "Dia_Num": "D280"
+  },
+  {
+    "Data": "08/10/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "8 Oct",
+    "Dia_Num": "D281"
+  },
+  {
+    "Data": "09/10/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "9 Oct",
+    "Dia_Num": "D282"
+  },
+  {
+    "Data": "10/10/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "10 Oct",
+    "Dia_Num": "D283"
+  },
+  {
+    "Data": "11/10/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "11 Oct",
+    "Dia_Num": "D284"
+  },
+  {
+    "Data": "12/10/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "12 Oct",
+    "Dia_Num": "D285"
+  },
+  {
+    "Data": "13/10/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "13 Oct",
+    "Dia_Num": "D286"
+  },
+  {
+    "Data": "14/10/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "14 Oct",
+    "Dia_Num": "D287"
+  },
+  {
+    "Data": "15/10/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "15 Oct",
+    "Dia_Num": "D288"
+  },
+  {
+    "Data": "16/10/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "16 Oct",
+    "Dia_Num": "D289"
+  },
+  {
+    "Data": "17/10/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "17 Oct",
+    "Dia_Num": "D290"
+  },
+  {
+    "Data": "18/10/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "18 Oct",
+    "Dia_Num": "D291"
+  },
+  {
+    "Data": "19/10/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "19 Oct",
+    "Dia_Num": "D292"
+  },
+  {
+    "Data": "20/10/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "20 Oct",
+    "Dia_Num": "D293"
+  },
+  {
+    "Data": "21/10/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "21 Oct",
+    "Dia_Num": "D294"
+  },
+  {
+    "Data": "22/10/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "22 Oct",
+    "Dia_Num": "D295"
+  },
+  {
+    "Data": "23/10/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "23 Oct",
+    "Dia_Num": "D296"
+  },
+  {
+    "Data": "24/10/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "24 Oct",
+    "Dia_Num": "D297"
+  },
+  {
+    "Data": "25/10/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "25 Oct",
+    "Dia_Num": "D298"
+  },
+  {
+    "Data": "26/10/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "26 Oct",
+    "Dia_Num": "D299"
+  },
+  {
+    "Data": "27/10/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "27 Oct",
+    "Dia_Num": "D300"
+  },
+  {
+    "Data": "28/10/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "28 Oct",
+    "Dia_Num": "D301"
+  },
+  {
+    "Data": "29/10/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "29 Oct",
+    "Dia_Num": "D302"
+  },
+  {
+    "Data": "30/10/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "30 Oct",
+    "Dia_Num": "D303"
+  },
+  {
+    "Data": "31/10/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "31 Oct",
+    "Dia_Num": "D304"
+  },
+  {
+    "Data": "01/11/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "1 Nov",
+    "Dia_Num": "D305"
+  },
+  {
+    "Data": "02/11/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "2 Nov",
+    "Dia_Num": "D306"
+  },
+  {
+    "Data": "03/11/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "3 Nov",
+    "Dia_Num": "D307"
+  },
+  {
+    "Data": "04/11/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "4 Nov",
+    "Dia_Num": "D308"
+  },
+  {
+    "Data": "05/11/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "5 Nov",
+    "Dia_Num": "D309"
+  },
+  {
+    "Data": "06/11/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "6 Nov",
+    "Dia_Num": "D310"
+  },
+  {
+    "Data": "07/11/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "7 Nov",
+    "Dia_Num": "D311"
+  },
+  {
+    "Data": "08/11/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "8 Nov",
+    "Dia_Num": "D312"
+  },
+  {
+    "Data": "09/11/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "9 Nov",
+    "Dia_Num": "D313"
+  },
+  {
+    "Data": "10/11/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "10 Nov",
+    "Dia_Num": "D314"
+  },
+  {
+    "Data": "11/11/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "11 Nov",
+    "Dia_Num": "D315"
+  },
+  {
+    "Data": "12/11/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "12 Nov",
+    "Dia_Num": "D316"
+  },
+  {
+    "Data": "13/11/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "13 Nov",
+    "Dia_Num": "D317"
+  },
+  {
+    "Data": "14/11/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "14 Nov",
+    "Dia_Num": "D318"
+  },
+  {
+    "Data": "15/11/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "15 Nov",
+    "Dia_Num": "D319"
+  },
+  {
+    "Data": "16/11/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "16 Nov",
+    "Dia_Num": "D320"
+  },
+  {
+    "Data": "17/11/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "17 Nov",
+    "Dia_Num": "D321"
+  },
+  {
+    "Data": "18/11/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "18 Nov",
+    "Dia_Num": "D322"
+  },
+  {
+    "Data": "19/11/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "19 Nov",
+    "Dia_Num": "D323"
+  },
+  {
+    "Data": "20/11/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "20 Nov",
+    "Dia_Num": "D324"
+  },
+  {
+    "Data": "21/11/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "21 Nov",
+    "Dia_Num": "D325"
+  },
+  {
+    "Data": "22/11/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "22 Nov",
+    "Dia_Num": "D326"
+  },
+  {
+    "Data": "23/11/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "23 Nov",
+    "Dia_Num": "D327"
+  },
+  {
+    "Data": "24/11/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "24 Nov",
+    "Dia_Num": "D328"
+  },
+  {
+    "Data": "25/11/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "25 Nov",
+    "Dia_Num": "D329"
+  },
+  {
+    "Data": "26/11/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "26 Nov",
+    "Dia_Num": "D330"
+  },
+  {
+    "Data": "27/11/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "27 Nov",
+    "Dia_Num": "D331"
+  },
+  {
+    "Data": "28/11/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "28 Nov",
+    "Dia_Num": "D332"
+  },
+  {
+    "Data": "29/11/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "29 Nov",
+    "Dia_Num": "D333"
+  },
+  {
+    "Data": "30/11/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "30 Nov",
+    "Dia_Num": "D334"
+  },
+  {
+    "Data": "01/12/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "1 Dec",
+    "Dia_Num": "D335"
+  },
+  {
+    "Data": "02/12/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "2 Dec",
+    "Dia_Num": "D336"
+  },
+  {
+    "Data": "03/12/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "3 Dec",
+    "Dia_Num": "D337"
+  },
+  {
+    "Data": "04/12/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "4 Dec",
+    "Dia_Num": "D338"
+  },
+  {
+    "Data": "05/12/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "5 Dec",
+    "Dia_Num": "D339"
+  },
+  {
+    "Data": "06/12/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "6 Dec",
+    "Dia_Num": "D340"
+  },
+  {
+    "Data": "07/12/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "7 Dec",
+    "Dia_Num": "D341"
+  },
+  {
+    "Data": "08/12/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dl",
+    "Dia_Mes": "8 Dec",
+    "Dia_Num": "D342"
+  },
+  {
+    "Data": "09/12/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "9 Dec",
+    "Dia_Num": "D343"
+  },
+  {
+    "Data": "10/12/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "10 Dec",
+    "Dia_Num": "D344"
+  },
+  {
+    "Data": "11/12/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "11 Dec",
+    "Dia_Num": "D345"
+  },
+  {
+    "Data": "12/12/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "12 Dec",
+    "Dia_Num": "D346"
+  },
+  {
+    "Data": "13/12/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "13 Dec",
+    "Dia_Num": "D347"
+  },
+  {
+    "Data": "14/12/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "14 Dec",
+    "Dia_Num": "D348"
+  },
+  {
+    "Data": "15/12/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "15 Dec",
+    "Dia_Num": "D349"
+  },
+  {
+    "Data": "16/12/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "16 Dec",
+    "Dia_Num": "D350"
+  },
+  {
+    "Data": "17/12/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dx",
+    "Dia_Mes": "17 Dec",
+    "Dia_Num": "D351"
+  },
+  {
+    "Data": "18/12/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dj",
+    "Dia_Mes": "18 Dec",
+    "Dia_Num": "D352"
+  },
+  {
+    "Data": "19/12/2025",
+    "Servei BV": 100,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "19 Dec",
+    "Dia_Num": "D353"
+  },
+  {
+    "Data": "20/12/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "20 Dec",
+    "Dia_Num": "D354"
+  },
+  {
+    "Data": "21/12/2025",
+    "Servei BV": 406,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "21 Dec",
+    "Dia_Num": "D355"
+  },
+  {
+    "Data": "22/12/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "22 Dec",
+    "Dia_Num": "D356"
+  },
+  {
+    "Data": "23/12/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "23 Dec",
+    "Dia_Num": "D357"
+  },
+  {
+    "Data": "24/12/2025",
+    "Servei BV": 106,
+    "Dia_Set": "Dx",
+    "Dia_Mes": "24 Dec",
+    "Dia_Num": "D358"
+  },
+  {
+    "Data": "25/12/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Dj",
+    "Dia_Mes": "25 Dec",
+    "Dia_Num": "D359"
+  },
+  {
+    "Data": "26/12/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Dv",
+    "Dia_Mes": "26 Dec",
+    "Dia_Num": "D360"
+  },
+  {
+    "Data": "27/12/2025",
+    "Servei BV": 400,
+    "Dia_Set": "Ds",
+    "Dia_Mes": "27 Dec",
+    "Dia_Num": "D361"
+  },
+  {
+    "Data": "28/12/2025",
+    "Servei BV": 500,
+    "Dia_Set": "Dg",
+    "Dia_Mes": "28 Dec",
+    "Dia_Num": "D362"
+  },
+  {
+    "Data": "29/12/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dl",
+    "Dia_Mes": "29 Dec",
+    "Dia_Num": "D363"
+  },
+  {
+    "Data": "30/12/2025",
+    "Servei BV": "000",
+    "Dia_Set": "Dm",
+    "Dia_Mes": "30 Dec",
+    "Dia_Num": "D364"
+  },
+  {
+    "Data": "31/12/2025",
+    "Servei BV": 102,
+    "Dia_Set": "Dx",
+    "Dia_Mes": "31 Dec",
+    "Dia_Num": "D365"
+  }
+]

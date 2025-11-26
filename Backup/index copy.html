@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ca">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6CHCYVEYTN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6CHCYVEYTN');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FGC utilitats</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Fitxer CSS extern -->
+    <link rel="stylesheet" href="menu.css"> <!-- Estils per al menú -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@200..700&display=swap">
+</head>
+<body id="index">
+    <!-- Menú reutilitzable -->
+    <div class="navbar">
+        <a href="index.html" class="navbar-title">FGC utilitats</a>
+        <div class="menu-toggle" id="menu-toggle">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="menu" id="menu">
+            <a href="index.html">Cercador Horari</a>
+            <a href="calculadora-devolucions.html">Devolucions</a>
+            <a href="isic.html">Pantalles ISIC</a>
+            <a href="calendari.html">Calendari Serveis</a>
+        </div>
+    </div>
+    <h1>Cercador horari</h1>
+
+    <!-- Formulari per triar l'estació, la línia, el nombre de trens i l'hora -->
+    <form id="station-form">
+        <div class="form-group">
+            <input type="text" id="station-code" placeholder="Codi de l'estació (PC,PE,...)" required>
+        </div>
+        <div class="form-row">
+            <div class="form-group">
+                <input type="text" id="line-name" placeholder="Línia (opcional)">
+            </div>
+            <div class="form-group">
+                <input type="number" id="train-count" placeholder="Trens (Min. 8)" min="8" required>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="ref-time">
+                <p class="small-text">Hora de referència o deixa-ho en blanc per l'hora actual:</p>
+            </label>
+            <input type="time" id="selected-time" placeholder="Tria l'hora">
+        </div>
+        <input type="submit" value="Actualitza">
+    </form>
+
+    <!-- Encapsular només els resultats -->
+    <div class="result-box">
+        <div class="station-header" id="station-name">Estació</div>
+        <div class="train-schedule" id="train-schedule">
+            <!-- Aquí es mostraran les dades dels trens -->
+        </div>
+    </div>
+
+    <footer>
+        J_E_O © <span id="current-year"></span>
+    </footer>
+    <script src="menu.js"></script> <!-- Comportament del menú -->
+    <script src="index.js"></script>
+</body>
+</html>
