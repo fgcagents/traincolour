@@ -9,3 +9,4 @@ function logout() {
   localStorage.removeItem("sessionToken");
   window.location.href = "/login.html";
 }
+
