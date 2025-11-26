@@ -15,6 +15,7 @@
     text-decoration: none;
     letter-spacing: 1px;
     padding: 10px 15px;
+    /*font-size: 1%;*/
 }
 .navbar a:hover {
     background-color: #45a049;

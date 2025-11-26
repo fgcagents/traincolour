@@ -423,24 +423,27 @@ function mostrarError(missatge) {
     document.getElementById('serviceBadge').innerHTML = `<div class="error-box">${missatge}</div>`;
 }
 
-// ======= NOVA FUNCIÓ: FILTRAR MARKDOWN PER TORN =======
-function filtrarMarkdownPerTorn(tornId) {
-    if (!MARKDOWN_TEXT || !tornId) return '';
-    
+// ======= NOVA FUNCIÓ: FILTRAR MARKDOWN PER TORN I SERVEI =======
+function filtrarMarkdownPerTorn() {
+    if (!MARKDOWN_TEXT || !TORN_SELECCIONAT || !SERVEI_DIA_ORIGINAL || SERVEI_DIA_ORIGINAL === 'N/A') return '';
+
     const lines = MARKDOWN_TEXT.split('\n');
     let result = [];
     let capturing = false;
     let headerLevel = 0;
-    
+
+    const tornBuscar = TORN_SELECCIONAT.toUpperCase();
+    const serveiBuscar = SERVEI_DIA_ORIGINAL.trim();
+
     for (let line of lines) {
         const headerMatch = line.match(/^(#+)\s+(.*)/i);
-        
+
         if (headerMatch) {
             const level = headerMatch[1].length;
-            const headerText = headerMatch[2];
-            
-            // Cerca exacte o parcial del torn al header
-            if (headerText.toUpperCase().includes(tornId.toUpperCase())) {
+            const headerText = headerMatch[2].toUpperCase();
+
+            // Cerca que contingui tant el torn COM el servei
+            if (headerText.includes(tornBuscar) && headerText.includes(serveiBuscar)) {
                 capturing = true;
                 headerLevel = level;
                 result.push(line);
@@ -454,39 +457,39 @@ function filtrarMarkdownPerTorn(tornId) {
             result.push(line);
         }
     }
-    
+
     return result.join('\n');
 }
 
 // ======= NOVA FUNCIÓ: TOGGLE MAPA DE PRESÈNCIA =======
 function toggleMapaPresencia() {
     if (!TORN_SELECCIONAT || !MARKDOWN_TEXT) return;
-    
+
     const container = document.getElementById('mapaPresenciaContainer');
     const btn = document.getElementById('btnMapaPresencia');
-    
+
     MAPA_VISIBLE = !MAPA_VISIBLE;
-    
+
     if (MAPA_VISIBLE) {
-        const markdown = filtrarMarkdownPerTorn(TORN_SELECCIONAT);
+        const markdown = filtrarMarkdownPerTorn(); // Sense paràmetres!
         if (markdown) {
             const html = marked.parse(markdown);
             document.getElementById('mapaPresenciaContent').innerHTML = html;
             container.style.display = 'block';
-            btn.textContent = '📍 Amagar mapa';
+            btn.textContent = '🗺️ Amagar mapa';
         } else {
             // Si no hi ha contingut, mostrar missatge
             document.getElementById('mapaPresenciaContent').innerHTML = `
                 <p style="color: #666; text-align: center; padding: 1rem;">
-                    No s'ha trobat informació de mapa de presència per aquest torn.
+                    No s'ha trobat informació de mapa de presència per aquest torn i servei (${TORN_SELECCIONAT} - ${SERVEI_DIA_ORIGINAL.trim()}).
                 </p>
             `;
             container.style.display = 'block';
-            btn.textContent = '📍 Amagar mapa';
+            btn.textContent = '🗺️ Amagar mapa';
         }
     } else {
         container.style.display = 'none';
-        btn.textContent = '📍 Mapa de presència';
+        btn.textContent = '🗺️ Mapa de presència';
     }
 }
 
