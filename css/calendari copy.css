@@ -270,7 +270,7 @@
     font-weight: 500;
 }
 
-/* Results card amb transició suau */
+/* Results card */
 .results-card {
     background: white;
     border-radius: 20px;
@@ -278,11 +278,6 @@
     margin-top: 1rem;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     overflow-x: auto;
-}
-
-/* Contenidor de resultats amb transició */
-#resultsContainer {
-    transition: opacity 0.3s ease-out;
 }
 
 /* Taules amb estil de l'app */

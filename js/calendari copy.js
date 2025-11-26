@@ -296,7 +296,7 @@ function seleccionarTorn(tornId) {
         MAPA_VISIBLE = false;
         document.getElementById('mapaPresenciaContainer').style.display = 'none';
         if (btnMapa) {
-            btnMapa.textContent = '🗺️ Mapa de presència';
+            btnMapa.textContent = '📍 Mapa de presència';
         }
     }
 }
@@ -409,7 +409,7 @@ function mostrarEmptyState() {
     // Amagar botó de mapa
     const btnMapa = document.getElementById('btnMapaPresencia');
     if (btnMapa) {
-        btnMapa.style.display = 'none';
+        btnMapa.style.display = 'block';
     }
     
     // Tancar mapa si estava obert
@@ -466,18 +466,16 @@ function toggleMapaPresencia() {
     if (!TORN_SELECCIONAT || !MARKDOWN_TEXT) return;
 
     const container = document.getElementById('mapaPresenciaContainer');
-    const resultsContainer = document.getElementById('resultsContainer');
     const btn = document.getElementById('btnMapaPresencia');
 
     MAPA_VISIBLE = !MAPA_VISIBLE;
 
     if (MAPA_VISIBLE) {
-        const markdown = filtrarMarkdownPerTorn();
+        const markdown = filtrarMarkdownPerTorn(); // Sense paràmetres!
         if (markdown) {
             const html = marked.parse(markdown);
             document.getElementById('mapaPresenciaContent').innerHTML = html;
             container.style.display = 'block';
-            resultsContainer.style.display = 'none'; // Amagar resultats
             btn.textContent = '🗺️ Amagar mapa';
         } else {
             // Si no hi ha contingut, mostrar missatge
@@ -487,12 +485,10 @@ function toggleMapaPresencia() {
                 </p>
             `;
             container.style.display = 'block';
-            resultsContainer.style.display = 'none'; // Amagar resultats
             btn.textContent = '🗺️ Amagar mapa';
         }
     } else {
         container.style.display = 'none';
-        resultsContainer.style.display = 'block'; // Mostrar resultats
         btn.textContent = '🗺️ Mapa de presència';
     }
 }
@@ -503,3 +499,5 @@ document.getElementById('current-year').textContent = new Date().getFullYear();
 // ======= INICIAR APLICACIÓ =======
 
 inicialitzaAplicacio();
+
+
