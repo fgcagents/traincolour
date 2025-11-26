@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+</head>
+<body>
+  <h2>Iniciar sessió</h2>
+
+  <form id="loginForm">
+    <label>Usuari</label><br>
+    <input type="text" id="user" required><br><br>
+
+    <label>Contrasenya</label><br>
+    <input type="password" id="password" required><br><br>
+
+    <button type="submit">Entrar</button>
+  </form>
+
+  <p id="error" style="color:red;"></p>
+
+  <script src="auth.js"></script>
+  <script>
+    document.getElementById("loginForm").addEventListener("submit", async (e) => {
+      e.preventDefault();
+
+      const user = document.getElementById("user").value;
+      const password = document.getElementById("password").value;
+
+      const response = await fetch("/api/login", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ user, password })
+      });
+
+      const data = await response.json();
+
+      if (data.success) {
+        localStorage.setItem("sessionToken", data.token);
+        window.location.href = "/dashboard.html";
+      } else {
+        document.getElementById("error").innerText = data.message;
+      }
+    });
+  </script>
+</body>
+</html>
